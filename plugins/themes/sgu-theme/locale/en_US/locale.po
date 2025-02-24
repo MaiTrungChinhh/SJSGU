@@ -1,0 +1,8 @@
+msgid "plugins.themes.sgu-theme.name"
+msgstr "Sgu Theme"
+
+msgid "plugins.themes.sgu-theme.description"
+msgstr "Sgu theme for OJS or OMP built with our amazing documentation."
+
+msgid "form.saved"
+msgstr "Saved"

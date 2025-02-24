@@ -1,0 +1,8 @@
+msgid "plugins.themes.sgu-theme.name"
+msgstr "Giao diện Sgu"
+
+msgid "plugins.themes.sgu-theme.description"
+msgstr "Chủ đề Sgu dành cho OJS hoặc OMP được xây dựng bằng tài liệu tuyệt vời của chúng tôi."
+
+msgid "form.saved"
+msgstr "Đã lưu"
