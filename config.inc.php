@@ -61,7 +61,8 @@ scheduled_tasks_report_error_only = On
 ; Please refer to lib/pkp/registry/timeZones.xml for a full list of supported
 ; time zones.
 ; I.e.:
-; <entry key="Europe/Amsterdam" name="Amsterdam" />
+;
+<entry key="Europe/Amsterdam" name="Amsterdam" />
 ; time_zone="Amsterdam"
 time_zone = "UTC"
 
@@ -139,7 +140,7 @@ sitewide_privacy_statement = Off
 driver = mysql
 host = localhost
 username = root
-password = 
+password =
 name = sjsgu
 
 ; Set the non-standard port and/or socket, if used
@@ -175,7 +176,7 @@ memcache_port = 11211
 ; specified in the web_cache_hours option. This will cut down on server
 ; overhead for many requests, but should be used with caution because:
 ; 1) Things like journal metadata changes will not be reflected in cached
-;    data until the cache expires or is cleared, and
+; data until the cache expires or is cleared, and
 ; 2) This caching WILL NOT RESPECT DOMAIN-BASED SUBSCRIPTIONS.
 ; However, for situations like hosting high-volume open access journals, it's
 ; an easy way of decreasing server load.
