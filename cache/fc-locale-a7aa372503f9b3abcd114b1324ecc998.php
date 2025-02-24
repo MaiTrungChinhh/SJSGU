@@ -1,0 +1,16 @@
+<?php return array (
+  'api.submissions.403.cantChangeContext' => 'Bạn không thể thay đổi tạp chí của một bài nộp.',
+  'api.submissions.403.unpublishedIssues' => 'Bạn không có quyền xem các số chưa được công bố.',
+  'api.submissions.403.contextRequired' => 'Để thực hiện hoặc chỉnh sửa nội dung bài nộp, bạn phải gửi yêu cầu đến điểm cuối API của tạp chí.',
+  'api.contexts.403.requestedDisabledContexts' => 'Bạn chỉ có thể xem các tạp chí đã được kích hoạt.',
+  'api.contexts.403.notAllowed' => 'Bạn không có quyền xem tạp chí này.',
+  'api.contexts.403.contextsDidNotMatch' => 'Bạn không thể xem hoặc chỉnh sửa tạp chí này trừ khi bạn yêu cầu API của tạp chí hoặc API trên toàn trang web.',
+  'api.contexts.403.requiresContext' => 'Bạn không thể chỉnh sửa tạp chí này từ API toàn trang web.',
+  'api.contexts.403.notAllowedEdit' => 'Bạn không có quyền chỉnh sửa tạp chí này.',
+  'api.contexts.403.notAllowedDelete' => 'Bạn không có quyền xóa tạp chí này.',
+  'api.contexts.404.contextNotFound' => 'Tạp chí bạn yêu cầu không được tìm thấy.',
+  'api.emailTemplates.403.notAllowedChangeContext' => 'Bạn không có quyền di chuyển mẫu email này sang một tạp chí khác.',
+  'api._payments.400.invalidPaymentMethod' => 'Phương thức thanh toán bạn chọn không được hỗ trợ.',
+  'api.publications.403.contextsDidNotMatch' => 'Ấn phẩm mà bạn yêu cầu không phải là một phần của tạp chí này.',
+  'api.publications.403.submissionsDidNotMatch' => 'Ấn phẩm mà bạn yêu cầu không phải là một phần của bài nộp này.',
+);

@@ -1,0 +1,15 @@
+<?php return array (
+  'plugins.generic.webfeed.displayName' => 'Plugin nguồn cấp web',
+  'plugins.generic.webfeed.description' => 'Plugin này tạo ra nguồn cấp dữ liệu cung cấp web RSS/Atom cho số hiện tại.',
+  'plugins.generic.webfeed.settings' => 'Cài đặt',
+  'plugins.generic.webfeed.settings.issue' => 'Chỉ hiển thị các liên kết nguồn cấp web trên các số.',
+  'plugins.generic.webfeed.settings.homepage' => 'Chỉ hiển thị các liên kết nguồn cấp web trên trang chủ và các số phát hành.',
+  'plugins.generic.webfeed.settings.all' => 'Hiển thị liên kết nguồn cấp web trên tất cả các trang tạp chí.',
+  'plugins.generic.webfeed.settings.currentIssue' => 'Hiển thị các mục trong số được công bố hiện tại.',
+  'plugins.generic.webfeed.settings.recent' => 'Hiển thị một số lượng cố định của các mục gần đây nhất.',
+  'plugins.generic.webfeed.settings.recentArticles' => 'Số mục cần hiển thị',
+  'plugins.generic.webfeed.settings.recentItemsRequired' => 'Vui lòng nhập một số nguyên dương cho các mục được xuất bản gần đây.',
+  'plugins.generic.webfeed.atom.altText' => 'Atom logo',
+  'plugins.generic.webfeed.rss1.altText' => 'Logo RSS1',
+  'plugins.generic.webfeed.rss2.altText' => 'Logo RSS2',
+);
