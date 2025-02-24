@@ -1,0 +1,9 @@
+
+!public/
+!files/
+!cache/
+!logs/
+
+# Cấu hình
+!config.inc.php
+
