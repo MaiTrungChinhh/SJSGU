@@ -6,3 +6,30 @@ msgstr "Chủ đề Sgu dành cho OJS hoặc OMP được xây dựng bằng tà
 
 msgid "form.saved"
 msgstr "Đã lưu"
+
+msgid "manager.setup.dateTime"
+msgstr "Ngày giờ thiết lập người quản lý"
+
+msgid "manager.setup.dateTime.descriptionTitle"
+msgstr "Tiêu đề mô tả ngày giờ thiết lập người quản lý"
+
+msgid "manager.setup.dateTime.description"
+msgstr "Mô tả ngày giờ thiết lập người quản lý"
+
+msgid "manager.setup.dateTime.longDate"
+msgstr "Ngày thiết lập trình quản lý ngày dài ngày"
+
+msgid "manager.setup.dateTime.custom"
+msgstr "Tùy chỉnh ngày giờ thiết lập người quản lý"
+
+msgid "manager.setup.dateTime.shortDate"
+msgstr "Ngày thiết lập người quản lý ngày ngắn ngày"
+
+msgid "manager.setup.dateTime.time"
+msgstr "Ngày giờ thiết lập người quản lý"
+
+msgid "manager.setup.dateTime.longDateTime"
+msgstr "Thiết lập trình quản lý thời gian ngày dài"
+
+msgid "manager.setup.dateTime.shortDateTime"
+msgstr "Thiết lập trình quản lý thời gian ngày ngắn"

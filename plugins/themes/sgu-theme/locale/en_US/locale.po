@@ -6,3 +6,30 @@ msgstr "Sgu theme for OJS or OMP built with our amazing documentation."
 
 msgid "form.saved"
 msgstr "Saved"
+
+msgid "manager.setup.dateTime"
+msgstr "Manager setup date time"
+
+msgid "manager.setup.dateTime.descriptionTitle"
+msgstr "Manager setup date time description title"
+
+msgid "manager.setup.dateTime.description"
+msgstr "Manager setup date time description"
+
+msgid "manager.setup.dateTime.longDate"
+msgstr "Manager setup date time long date"
+
+msgid "manager.setup.dateTime.custom"
+msgstr "Manager setup date time custom"
+
+msgid "manager.setup.dateTime.shortDate"
+msgstr "Manager setup date time short date"
+
+msgid "manager.setup.dateTime.time"
+msgstr "Manager setup date time"
+
+msgid "manager.setup.dateTime.longDateTime"
+msgstr "Manager setup long date time"
+
+msgid "manager.setup.dateTime.shortDateTime"
+msgstr "Manager setup long short time"
