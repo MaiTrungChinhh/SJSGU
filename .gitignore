@@ -5,5 +5,5 @@
 !logs/
 
 # Cấu hình
-!config.inc.php
+config.inc.php
 
