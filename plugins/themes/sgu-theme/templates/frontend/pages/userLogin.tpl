@@ -102,4 +102,4 @@ before dowloading a file. *}
 	</div>
 </div><!-- .page -->
 
-{* {include file="frontend/components/footer.tpl"} *}
+{include file="frontend/components/footer.tpl"}
