@@ -159,7 +159,7 @@
         {/if}
 
         <div class="buttons">
-            <button class="submit" type="submit">
+            <button id="register-button" class="submit" type="submit">
                 {translate key="user.register"}
             </button>
 
