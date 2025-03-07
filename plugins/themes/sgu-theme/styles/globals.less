@@ -1,0 +1,62 @@
+/* === LOGIN, REGISTER BUTTONS === */
+.page_login .buttons a,
+.page_register .buttons a {
+    color: white;
+    background-color: grey;
+    padding: 4px;
+    border-radius: 3px;
+    width: 7rem;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#login-button,
+#register-button {
+    background-color: #07689f;
+    color: white;
+    border: 1px solid #07689f;
+    cursor: pointer;
+    height: 40px;
+    font-size: 1rem;
+    transition: background-color 0.2s, border-color 0.2s;
+
+    &:hover {
+        background-color: #005580;
+        border-color: #005580;
+    }
+
+    &:active {
+        background-color: #00446b;
+        border-color: #00446b;
+    }
+
+    &:focus {
+        box-shadow: 0 0 0 0.2rem rgba(7, 104, 159, 0.5);
+    }
+
+    &:disabled {
+        background-color: #b0b0b0;
+        border-color: #b0b0b0;
+        cursor: not-allowed;
+    }
+}
+
+/* === FORM STYLING === */
+.cmp_form #username,
+.cmp_form #password,
+.cmp_form #repeat-password,
+.cmp_form #email,
+.cmp_form #givenName,
+.cmp_form #familyName,
+.cmp_form #affiliation {
+    width: 100%;
+    height: 2.5rem;
+    font-size: 1rem;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    box-sizing: border-box;
+    transition: border-bottom 0.3s ease;
+}
