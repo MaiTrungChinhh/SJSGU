@@ -70,6 +70,9 @@ before dowloading a file. *}
 							</span>
 							<input type="password" name="password" id="password" value="{$password|default:""|escape}"
 								password="true" maxlength="32" required aria-required="true">
+							<button type="button" class="toggle-password" aria-label="Toggle password visibility">
+								<i class="fas fa-eye"></i>
+							</button>
 							<a class="lost-password" href="{url page="login" op="lostPassword"}">
 								{translate key="user.login.forgotPassword"}
 							</a>
