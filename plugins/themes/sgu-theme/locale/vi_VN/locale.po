@@ -1,35 +1,38 @@
 msgid "plugins.themes.sgu-theme.name"
-msgstr "Giao diện Sgu"
+msgstr "Giao diện SGU"
 
 msgid "plugins.themes.sgu-theme.description"
-msgstr "Chủ đề Sgu dành cho OJS hoặc OMP được xây dựng bằng tài liệu tuyệt vời của chúng tôi."
+msgstr "Giao diện SGU cho OJS hoặc OMP được xây dựng với tài liệu hướng dẫn tuyệt vời của chúng tôi."
 
 msgid "form.saved"
 msgstr "Đã lưu"
 
 msgid "manager.setup.dateTime"
-msgstr "Ngày giờ thiết lập người quản lý"
+msgstr "Thiết lập Ngày và Giờ"
 
 msgid "manager.setup.dateTime.descriptionTitle"
-msgstr "Tiêu đề mô tả ngày giờ thiết lập người quản lý"
+msgstr "Mô tả Cài đặt Ngày và Giờ"
 
 msgid "manager.setup.dateTime.description"
-msgstr "Mô tả ngày giờ thiết lập người quản lý"
+msgstr "Cấu hình định dạng hiển thị ngày và giờ cho hệ thống"
 
 msgid "manager.setup.dateTime.longDate"
-msgstr "Ngày thiết lập trình quản lý ngày dài ngày"
+msgstr "Định dạng Ngày Dài"
 
 msgid "manager.setup.dateTime.custom"
-msgstr "Tùy chỉnh ngày giờ thiết lập người quản lý"
+msgstr "Định dạng Tùy chỉnh"
 
 msgid "manager.setup.dateTime.shortDate"
-msgstr "Ngày thiết lập người quản lý ngày ngắn ngày"
+msgstr "Định dạng Ngày Ngắn"
 
 msgid "manager.setup.dateTime.time"
-msgstr "Ngày giờ thiết lập người quản lý"
+msgstr "Định dạng Giờ"
 
 msgid "manager.setup.dateTime.longDateTime"
-msgstr "Thiết lập trình quản lý thời gian ngày dài"
+msgstr "Định dạng Ngày Giờ Dài"
 
 msgid "manager.setup.dateTime.shortDateTime"
-msgstr "Thiết lập trình quản lý thời gian ngày ngắn"
+msgstr "Định dạng Ngày Giờ Ngắn"
+
+msgid "admin.settings.enableBulkEmails.label"
+msgstr "Bật Gửi Email Hàng Loạt"
