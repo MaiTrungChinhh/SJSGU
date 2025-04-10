@@ -1148,7 +1148,7 @@ msgid "form.resubmit"
 msgstr "Gửi lại"
 
 msgid "form.saved"
-msgstr ""
+msgstr "Đã lưu"
 
 msgid "form.saveToUpload"
 msgstr "Sử dụng Lưu để tải tệp lên."

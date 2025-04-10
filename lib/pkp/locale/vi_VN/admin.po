@@ -218,21 +218,19 @@ msgid "admin.settings.minPasswordLength"
 msgstr "Độ dài mật khẩu tối thiểu (ký tự)"
 
 msgid "admin.settings.restrictBulkEmails"
-msgstr ""
+msgstr "Giới hạn gửi email hàng loạt theo tạp chí"
 
 msgid "admin.settings.disableBulkEmailRoles.label"
-msgstr ""
+msgstr "Vô hiệu hóa các vai trò được phép gửi email hàng loạt"
 
 msgid "admin.settings.disableBulkEmailRoles.adminOnly"
-msgstr ""
+msgstr "Chỉ quản trị viên hệ thống mới có thể chỉnh sửa các vai trò bị loại trừ khỏi danh sách nhận email hàng loạt."
 
 msgid "admin.settings.siteLanguage"
 msgstr "Ngôn ngữ trang web"
 
 msgid "admin.settings.siteStyleSheetInvalid"
-msgstr ""
-"Định dạng Biểu định kiểu trang web không hợp lệ. Định dạng được chấp nhận "
-"là .css."
+msgstr "Định dạng stylesheet của trang web không hợp lệ. Định dạng được chấp nhận là .css"
 
 msgid "admin.settings.siteStyleSheet"
 msgstr "Biểu định kiểu trang web"

@@ -205,13 +205,13 @@ msgid "admin.scheduledTask.reviewReminder"
 msgstr "Nhắc nhở phản biện"
 
 msgid "admin.settings.enableBulkEmails.description"
-msgstr ""
+msgstr "Cho phép gửi email hàng loạt đến người dùng theo vai trò. Tính năng này nên được sử dụng cẩn thận để tránh gửi thư rác."
 
 msgid "admin.settings.disableBulkEmailRoles.description"
-msgstr ""
+msgstr "Chọn các vai trò không được phép nhận email hàng loạt. Điều này hữu ích để tránh gửi email không cần thiết đến các vai trò như tác giả hoặc độc giả."
 
 msgid "admin.settings.disableBulkEmailRoles.contextDisabled"
-msgstr ""
+msgstr "Việc cấu hình vai trò không được nhận email hàng loạt bị vô hiệu hóa ở cấp tạp chí. Vui lòng liên hệ quản trị viên hệ thống để bật tính năng này."
 
 #~ msgid "admin.contexts.form.edit.success"
 #~ msgstr "{$name} đã được chỉnh sửa thành công."
