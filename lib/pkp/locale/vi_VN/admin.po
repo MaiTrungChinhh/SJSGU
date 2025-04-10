@@ -188,7 +188,10 @@ msgid "admin.settings.about"
 msgstr "Giới thiệu Trang web"
 
 msgid "admin.settings.enableBulkEmails.label"
-msgstr ""
+msgstr "Cho phép gửi email hàng loạt"
+
+msgid "admin.settings.enableBulkEmails.description"
+msgstr "Cho phép quản trị viên gửi email hàng loạt đến tất cả người dùng đã đăng ký"
 
 msgid "admin.settings.contactEmail"
 msgstr "Email của Liên lạc chính"

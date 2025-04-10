@@ -187,7 +187,10 @@ msgid "admin.settings.about"
 msgstr "About the Site"
 
 msgid "admin.settings.enableBulkEmails.label"
-msgstr "Bulk Emails"
+msgstr "Enable Bulk Emails"
+
+msgid "admin.settings.enableBulkEmails.description"
+msgstr "Allow administrators to send bulk emails to all registered users"
 
 msgid "admin.settings.contactEmail"
 msgstr "Email of principal contact"
