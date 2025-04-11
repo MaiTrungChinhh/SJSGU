@@ -36,3 +36,18 @@ msgstr "Short Date and Time Format"
 
 msgid "admin.settings.enableBulkEmails.label"
 msgstr "Enable Bulk Email Sending"
+
+msgid "common.titleSeparator"
+msgstr " "
+
+msgid "common.inactive"
+msgstr "Inactive"
+
+msgid "manager.sections.form.deactivateSection"
+msgstr "Deactivate this section"
+
+msgid "manager.setup.disableSubmissions"
+msgstr "Disable submissions to the journal"
+
+msgid "manager.setup.disableSubmissions.description"
+msgstr "Prevent users from submitting new manuscripts to the journal."

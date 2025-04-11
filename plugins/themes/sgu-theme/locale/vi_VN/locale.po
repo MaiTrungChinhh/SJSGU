@@ -36,3 +36,18 @@ msgstr "Định dạng Ngày Giờ Ngắn"
 
 msgid "admin.settings.enableBulkEmails.label"
 msgstr "Bật Gửi Email Hàng Loạt"
+
+msgid "common.titleSeparator"
+msgstr " "
+
+msgid "common.inactive"
+msgstr "Không hoạt động"
+
+msgid "manager.sections.form.deactivateSection"
+msgstr "Vô hiệu hóa phần này"
+
+msgid "manager.setup.disableSubmissions"
+msgstr "Tắt tính năng gửi bài đến tạp chí"
+
+msgid "manager.setup.disableSubmissions.description"
+msgstr "Ngăn người dùng gửi bài mới đến tạp chí."
