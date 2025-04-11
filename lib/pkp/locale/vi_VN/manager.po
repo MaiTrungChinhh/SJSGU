@@ -1002,7 +1002,7 @@ msgid "manager.statistics.statistics.registeredUsers"
 msgstr "Người dùng đã đăng ký"
 
 msgid "manager.users"
-msgstr "Những người dùng"
+msgstr "Quản lý người dùng"
 
 msgid "plugins.categories.metadata"
 msgstr "Plugin siêu dữ liệu"
