@@ -51,3 +51,30 @@ msgstr "Disable submissions to the journal"
 
 msgid "manager.setup.disableSubmissions.description"
 msgstr "Prevent users from submitting new manuscripts to the journal."
+
+msgid "manager.setup.disableSubmissions.notAccepting"
+msgstr "This journal is currently not accepting submissions."
+
+msgid "manager.setup.genres.label"
+msgstr "Component Types"
+
+msgid "manager.setup.genres.metatadata.description"
+msgstr "These genres are used to designate types of submission components."
+
+msgid "manager.setup.genres.metatadata"
+msgstr "Submission genre metadata information"
+
+msgid "manager.setup.notifyUsers"
+msgstr "Notify Users"
+
+msgid "manager.setup.notifyUsers.description"
+msgstr "Send an email notification to all registered users of this journal. This can be used to announce new issues, calls for papers, or other journal news."
+
+msgid "manager.setup.notifyUsers.copyDetails"
+msgstr "Enter the message that will be emailed to all registered users. This email will be sent to users who have opted to receive notifications."
+
+msgid "submission.submit.genre.label"
+msgstr "Submission Component"
+
+msgid "common.addFile"
+msgstr "Add File"

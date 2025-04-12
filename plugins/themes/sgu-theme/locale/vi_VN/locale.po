@@ -51,3 +51,30 @@ msgstr "Tắt tính năng gửi bài đến tạp chí"
 
 msgid "manager.setup.disableSubmissions.description"
 msgstr "Ngăn người dùng gửi bài mới đến tạp chí."
+
+msgid "manager.setup.disableSubmissions.notAccepting"
+msgstr "Tạp chí hiện tại không nhận bài gửi."
+
+msgid "manager.setup.genres.label"
+msgstr "Loại thành phần"
+
+msgid "manager.setup.genres.metatadata.description"
+msgstr "Những loại thành phần này được sử dụng để chỉ định loại tệp của bài nộp."
+
+msgid "manager.setup.genres.metatadata"
+msgstr "Thông tin siêu dữ liệu của loại bài nộp"
+
+msgid "manager.setup.notifyUsers"
+msgstr "Thông báo cho người dùng"
+
+msgid "manager.setup.notifyUsers.description"
+msgstr "Gửi thông báo qua email đến tất cả người dùng đã đăng ký của tạp chí. Tính năng này có thể được sử dụng để thông báo về số mới, lời mời gửi bài, hoặc các tin tức khác."
+
+msgid "manager.setup.notifyUsers.copyDetails"
+msgstr "Nhập nội dung thông báo sẽ được gửi đến tất cả người dùng đã đăng ký. Email này chỉ được gửi đến những người dùng đã chọn nhận thông báo."
+
+msgid "submission.submit.genre.label"
+msgstr "Thành phần bài nộp"
+
+msgid "common.addFile"
+msgstr "Thêm tệp"
