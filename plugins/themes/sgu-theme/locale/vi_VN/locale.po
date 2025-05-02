@@ -78,3 +78,24 @@ msgstr "Thành phần bài nộp"
 
 msgid "common.addFile"
 msgstr "Thêm tệp"
+
+msgid "navigation.backTo"
+msgstr "Quay lại"
+
+msgid "submission.upload.instructions"
+msgstr "Tải lên tệp đính kèm với bài gửi. Chấp nhận các định dạng như DOCX, PDF hoặc các định dạng được hỗ trợ khác."
+
+msgid "submission.submit.genre.error"
+msgstr "Vui lòng chọn đúng định dạng tập tin trước khi tiếp tục."
+
+msgid "submission.submit.removeConfirm"
+msgstr "Bạn có chắc chắn muốn xóa tệp này không?"
+
+msgid "submission.viewingPreview"
+msgstr "Bạn đang xem trước bài nộp."
+
+msgid "submission.submit.genre.description"
+msgstr "Vui lòng chọn thể loại phù hợp cho tập tin bạn đang gửi (ví dụ: bài báo, phụ lục, dữ liệu nghiên cứu, hình ảnh, v.v.)."
+
+msgid "common.editItem"
+msgstr "Chỉnh sửa mục"

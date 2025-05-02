@@ -1310,7 +1310,7 @@ msgid "locale.supported"
 msgstr "Những ngôn ngữ được hỗ trợ"
 
 msgid "navigation.access"
-msgstr "Người dùng &amp Vai trò"
+msgstr "Người dùng & Vai trò"
 
 msgid "navigation.about"
 msgstr "Bao gồm"

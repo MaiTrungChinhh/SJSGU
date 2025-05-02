@@ -78,3 +78,24 @@ msgstr "Submission Component"
 
 msgid "common.addFile"
 msgstr "Add File"
+
+msgid "navigation.backTo"
+msgstr "Back to"
+
+msgid "submission.upload.instructions"
+msgstr "Upload the file associated with this submission. Accepted formats include DOCX, PDF, or other supported file types."
+
+msgid "submission.submit.genre.error"
+msgstr "Please select the correct file format before proceeding."
+
+msgid "submission.submit.removeConfirm"
+msgstr "Are you sure you want to remove this file?"
+
+msgid "submission.viewingPreview"
+msgstr "You are viewing a preview of the submission."
+
+msgid "submission.submit.genre.description"
+msgstr "Please select the appropriate genre for the file you are submitting (e.g., article, appendix, research data, image, etc.)."
+
+msgid "common.editItem"
+msgstr "Edit item"
