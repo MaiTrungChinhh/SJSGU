@@ -56,7 +56,7 @@ msgid "navigation.journalHelp"
 msgstr "Trợ giúp Tạp chí"
 
 msgid "navigation.current"
-msgstr "Số hiện tại"
+msgstr "CÁC SỐ ĐÃ XUẤT BẢN"
 
 msgid "navigation.otherJournals"
 msgstr "Các tạp chí khác"
@@ -1633,13 +1633,13 @@ msgid "about.contact"
 msgstr "Liên hệ"
 
 msgid "about.aboutContext"
-msgstr "Giới thiệu về Tạp chí"
+msgstr "GIỚI THIỆU"
 
 msgid "about.history"
 msgstr "Lịch sử Tạp chí"
 
 msgid "about.editorialTeam"
-msgstr "Ban biên tập"
+msgstr "HỘI ĐỒNG BIÊN TẬP"
 
 msgid "about.editorialTeam.biography"
 msgstr "Tiểu sử"
@@ -1654,7 +1654,7 @@ msgid "about.sectionPolicies"
 msgstr "Chính sách các chuyên mục"
 
 msgid "about.submissions"
-msgstr "Các bài gửi"
+msgstr "GỬI BÀI"
 
 msgid "about.onlineSubmissions.login"
 msgstr "Đăng nhập"
