@@ -74,3 +74,156 @@
 //     background-size: cover;
 //     background-position: center;
 // }
+
+/* === SGU HEADER CUSTOM === */
+.sgu-header-outer {
+    width: 100vw;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    box-sizing: border-box;
+    padding: 0;
+    border: none;
+}
+
+.sgu-header-custom {
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 0 0 0 0;
+    border: none;
+}
+
+.sgu-header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 40px 0 40px;
+}
+
+.sgu-header-left {
+    flex: 1;
+    min-width: 0;
+}
+
+.sgu-header-title {
+    font-size: 22px;
+    font-family: serif;
+    margin-bottom: 0.2em;
+}
+
+.sgu-header-main {
+    font-size: 44px;
+    font-weight: bold;
+    color: #153a8a;
+    line-height: 1;
+    margin-bottom: 0.1em;
+}
+
+.sgu-header-en {
+    font-size: 18px;
+    font-style: italic;
+    color: #222;
+    margin-bottom: 0.1em;
+}
+
+.sgu-header-vi {
+    font-size: 22px;
+    font-weight: bold;
+    color: #153a8a;
+    margin-bottom: 0.2em;
+}
+
+.sgu-header-link {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #222;
+}
+
+.sgu-header-link a {
+    color: #222;
+    text-decoration: underline;
+}
+
+.sgu-header-right {
+    text-align: right;
+    min-width: 220px;
+    padding-left: 30px;
+}
+
+.sgu-header-issn {
+    font-size: 18px;
+    font-weight: bold;
+    color: #153a8a;
+    margin-bottom: 8px;
+}
+
+.sgu-header-logo {
+    margin-top: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #ccc;
+    object-fit: cover;
+}
+
+.sgu-header-menu {
+    width: 100%;
+    background: #009fe3;
+    margin: 0;
+    padding: 0 40px;
+    box-sizing: border-box;
+    border-bottom: 4px solid #009fe3;
+}
+
+.sgu-header-menu .pkp_navigation_primary {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sgu-header-menu .pkp_navigation_primary>li>a {
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 18px 24px 14px 0;
+    text-decoration: none;
+    background: none;
+    border: none;
+    transition: color 0.2s;
+}
+
+.sgu-header-menu .pkp_navigation_primary>li>a:hover {
+    color: #153a8a;
+}
+
+@media (max-width: 900px) {
+
+    .sgu-header-row,
+    .sgu-header-menu {
+        padding: 0 10px;
+    }
+
+    .sgu-header-main {
+        font-size: 28px;
+    }
+
+    .sgu-header-vi {
+        font-size: 16px;
+    }
+
+    .sgu-header-right {
+        min-width: 120px;
+        padding-left: 10px;
+    }
+
+    .sgu-header-logo {
+        width: 60px;
+        height: 60px;
+    }
+}
