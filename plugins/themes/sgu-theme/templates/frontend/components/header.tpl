@@ -30,12 +30,29 @@
 
 		{* Header *}
 		<header class="pkp_structure_head" id="headerNavigationContainer" role="banner">
+		<div class="pkp_site_name_wrapper sgu-header-custom" style="background: #fff; border-bottom: 4px solid #009fe3; position: relative;">
+					<div style="display: flex; justify-content: space-between; align-items: flex-start; padding: 10px 0 0 0;">
+						<div style="padding-left: 20px;">
+							<div style="font-size: 22px; font-family: serif;">Tạp chí Khoa học</div>
+							<div style="font-size: 40px; font-weight: bold; color: #153a8a; line-height: 1;">Đại học Sài Gòn</div>
+							<div style="font-size: 18px; font-style: italic; color: #222;">Scientific Journal of Saigon University</div>
+							<div style="font-size: 20px; font-weight: bold; color: #153a8a;">Trường Đại học Sài Gòn - <span style="color:#3b3b99">Saigon University</span></div>
+							<div style="margin-top: 5px; font-size: 16px; color: #222;">
+								<i class="fa fa-link"></i> <a href="https://sj.sgu.edu.vn" style="color: #222; text-decoration: underline;">sj.sgu.edu.vn</a>
+							</div>
+						</div>
+						<div style="text-align: right; padding-right: 30px; min-width: 220px;">
+							<div style="font-size: 16px; font-weight: bold; color: #153a8a;">ISSN 1859 - 3208</div>
+								<img src="{$publicFilesDir}/{$displayPageHeaderLogo.uploadName|escape:"url"}" style="width: 120px; height: auto;" {if $displayPageHeaderLogo.altText != ''}alt="{$displayPageHeaderLogo.altText|escape}"{/if} />
+							</div>
+					</div>
+				</div>
 			{* Skip to content nav links *}
 			{include file="frontend/components/skipLinks.tpl"}
 
 			<div class="pkp_head_wrapper">
 
-				<div class="pkp_site_name_wrapper">
+				{* <div class="pkp_site_name_wrapper">
 					<button class="pkp_site_nav_toggle">
 						<span>Open Menu</span>
 					</button>
@@ -64,7 +81,7 @@
 						</a>
 					{/if}
 					</div>
-				</div>
+				</div> *}
 
 				{capture assign="primaryMenu"}
 					{load_menu name="primary" id="navigationPrimary" ulClass="pkp_navigation_primary"}
@@ -87,9 +104,9 @@
 								</div>
 							{/if}
 						</div>
-					</div>
-					<div class="pkp_navigation_user_wrapper" id="navigationUserWrapper">
-						{load_menu name="user" id="navigationUser" ulClass="pkp_navigation_user" liClass="profile"}
+						<div class="pkp_navigation_user_wrapper" id="navigationUserWrapper">
+							{load_menu name="user" id="navigationUser" ulClass="pkp_navigation_user" liClass="profile"}
+						</div>
 					</div>
 				</nav>
 			</div><!-- .pkp_head_wrapper -->
