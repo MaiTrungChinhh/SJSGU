@@ -1,137 +1,250 @@
 <!-- code phần giới thiệu Tạp chí -> tiêu đề -> mô tả (coppy dán từ thẻ div đầu tiên) -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 
 <head>
-    <title></title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link href="css/style.css" rel="stylesheet"> -->
+    <title>Giới thiệu Tạp chí Khoa học Đại học Sài Gòn</title>
+    <style>
+        .about-journal-main {
+            max-width: 1100px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 4px 32px rgba(80, 112, 255, 0.07), 0 1.5px 6px rgba(0, 0, 0, 0.04);
+            padding: 32px 24px 40px 24px;
+        }
+
+        .about-journal-flex {
+            display: flex;
+            gap: 36px;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .about-journal-img {
+            flex: 0 0 220px;
+            max-width: 220px;
+            text-align: center;
+        }
+
+        .about-journal-img img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(80, 112, 255, 0.10);
+        }
+
+        .about-journal-header {
+            flex: 1 1 350px;
+            min-width: 260px;
+        }
+
+        .about-journal-title {
+            font-size: 2.1rem;
+            font-weight: 800;
+            color: #0a1a5e;
+            margin: 0 0 8px 0;
+            letter-spacing: 0.01em;
+            text-transform: uppercase;
+            text-align: left;
+        }
+
+        .about-journal-subtitle {
+            font-size: 1.15rem;
+            color: #6366f1;
+            font-weight: 600;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+        .about-journal-admin {
+            font-size: 1rem;
+            color: #374151;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+        .about-journal-admin strong {
+            color: #0a1a5e;
+        }
+
+        .about-journal-table {
+            width: 100%;
+            margin-bottom: 18px;
+        }
+
+        .about-journal-table td {
+            padding: 2px 8px;
+            font-size: 1rem;
+            color: #374151;
+        }
+
+        .about-journal-table .left {
+            text-align: left;
+            font-weight: 600;
+        }
+
+        .about-journal-table .right {
+            text-align: right;
+            font-style: italic;
+        }
+
+        .about-journal-content {
+            margin-top: 24px;
+        }
+
+        .about-journal-content h3 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #3b3b99;
+            margin-bottom: 10px;
+            margin-top: 24px;
+        }
+
+        .about-journal-content p,
+        .about-journal-content ul {
+            font-size: 1.05rem;
+            color: #374151;
+            line-height: 1.7;
+            margin-bottom: 10px;
+        }
+
+        .about-journal-content ul {
+            margin-left: 24px;
+        }
+
+        @media (max-width: 900px) {
+            .about-journal-flex {
+                flex-direction: column;
+                gap: 18px;
+            }
+
+            .about-journal-img {
+                max-width: 60vw;
+                margin: 0 auto;
+            }
+
+            .about-journal-header {
+                text-align: center;
+            }
+
+            .about-journal-title,
+            .about-journal-subtitle,
+            .about-journal-admin {
+                text-align: center !important;
+            }
+        }
+    </style>
 </head>
 
 <body>
-
-</html>
-<div class="section-content relative">
-    <div id="row-818447805" class="row row-small">
-        <div class="col small-12 large-12">
-            <div class="col-inner">
-                <div class="head" style="display: flex; justify-content: center; align-items: center; height: 100%;">
-                    <table style="height: 169px;" width="533">
-                        <tbody>
-                            <tr>
-                                <td style="text-align: center;" width="262">
-                                    <p class="thin-font"><strong>UỶ BAN NHÂN DÂN TP.HCM</strong></p>
-                                    <p class="thin-font"><strong> TRƯỜNG ĐẠI HỌC </strong><strong>SÀI
-                                            GÒN</strong>
-                                    </p>
-                                </td>
-                                <td width="378">
-                                    <p class="thin-font" style="text-align: center;"><strong>CỘNG HOÀ XÃ HỘI
-                                            CHỦ
-                                            NGHĨA VIỆT NAM</strong></p>
-                                    <p class="thin-font" style="text-align: center;"><strong>Độc lập – Tự do –
-                                            Hạnh
-                                            phúc</strong></p>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+    <div class="about-journal-main">
+        <div class="about-journal-flex">
+            <div class="about-journal-img">
+                <img src="http://sj.sgu.edu.vn/wp-content/uploads/2019/03/gioi-thiu-1-225x300.png"
+                    alt="Tạp chí Khoa học Đại học Sài Gòn">
+            </div>
+            <div class="about-journal-header">
+                <div class="about-journal-title">TẠP CHÍ KHOA HỌC ĐẠI HỌC SÀI GÒN</div>
+                <div class="about-journal-subtitle">Scientific Journal of Saigon University</div>
+                <table class="about-journal-table">
+                    <tr>
+                        <td class="left">ISSN 1859 - 3208</td>
+                        <td class="right">Số: 1945/QĐ-ĐHSG-TTTT&PTGD</td>
+                    </tr>
+                </table>
+                <div class="about-journal-admin">
+                    <strong>UBND TP.HCM</strong> - <strong>Trường Đại học Sài Gòn</strong><br>
+                    <strong>Cộng hòa Xã hội Chủ nghĩa Việt Nam</strong> - Độc lập, Tự do, Hạnh phúc
                 </div>
-                <p>           </p>
-                <p style="text-align: center;"><strong>GIỚI THIỆU</strong></p>
-                <p style="text-align: center;"><strong>TẠP CHÍ KHOA HỌC ĐẠI HỌC SÀI GÒN</strong></p>
-                <p style="text-align: center;"><em>(Ban hành theo Quyết định
-                        số:1945/QĐ-ĐHSG-TTTT&amp;PTGD, ngày 22 tháng
-                        9
-                        năm 2015 </em><em>của Hiệu trưởng Trường Đại học Sài Gòn)</em><strong> </strong></p>
-                <p><strong>1. Giới thiệu chung </strong></p>
-                <p style="text-align: justify;">Tạp chí Khoa học Đại học Sài Gòn nằm trong hệ thống báo chí chính
-                    thống
-                    của nước Cộng hòa Xã hội Chủ nghĩa Việt Nam, có tiếng nói khoa học ngang tầm với các Tạp chí
-                    khoa
-                    học ngành giáo dục và Tạp chí các lĩnh vực khác.                       </p>
-                <p style="text-align: justify;">Tạp chí Khoa học Đại học Sài Gòn có chỉ số Quốc tế ISSN 1859 – 3208,
-                    khẳng định Tạp chí đạt tiêu chuẩn Quốc tế về lĩnh vực khoa học. Giáo sư, Phó Giáo sư, Tiến sĩ,
-                    Nghiên cứu sinh, Thạc sĩ, Học viên cao học, giảng viên, sinh viên có công trình nghiên cứu khoa
-                    học
-                    theo đúng nội dung định hướng của Tạp chí, được đăng trên Tạp chí sẽ được tính điểm nghiên cứu
-                    khoa
-                    học theo quy định.</p>
-                <p><strong>2. Tên gọi Tạp chí</strong></p>
-                <p>–  Tên tiếng Việt: Tạp chí Khoa học Đại học Sài Gòn.</p>
-                <p>–  Tên tiếng Anh: Scientific Journal of Saigon University.</p>
-                <p>–  Tên viết tắt: SJSGU.</p>
-                <p>–  Trụ sở: 273 An Dương Vương, Phường 3, Quận 5, Thành phố Hồ Chí Minh.</p>
-                <p>–  ĐT: 08.38321360; Email: <a href="http://localhost/sgu/index.php/TCKH/about">tcdhsg@sgu.edu.vn</a>
-                </p>
-                <p>–  Tạp chí Khoa học Đại học Sài Gòn có con dấu riêng.<strong> </strong></p>
-                <p><strong>3. Tôn chỉ, mục đích</strong></p>
-                <p style="text-align: justify;">Tạp chí Khoa học Đại học Sài Gòn là diễn đàn khoa học công bố các
-                    kết
-                    quả nghiên cứu và hoạt động khoa học của cán bộ, giảng viên, sinh viên Trường Đại học Sài Gòn,
-                    gắn
-                    nghiên cứu khoa học của nhà trường với thực tiễn sản xuất, đổi mới và phát triển của đất nước.
-                </p>
-                <p style="text-align: justify;">Tạp chí Khoa học Đại học Sài Gòn sẽ là diễn đàn trao đổi tư duy,
-                    quan
-                    điểm, định hướng nghiên cứu khoa học đa ngành giữa các nhà khoa học, các nhà quản lý, các học
-                    giả,
-                    các nhà giáo ở các trường cao đẳng, đại học, các viện, các học viện, các trung tâm nghiên cứu
-                    trong
-                    và ngoài nước; góp phần từng bước hoàn thiện và nâng cao chức năng, nhiệm vụ đào tạo và nghiên
-                    cứu
-                    khoa học của Trường Đại học Sài Gòn.</p>
-                <p style="text-align: justify;">Tạp chí Khoa học Đại học Sài Gòn là cầu nối quan trọng giữa Trường
-                    Đại
-                    học Sài Gòn với các cơ sở giáo dục trong hệ thống giáo dục quốc dân, với các công ty, doanh
-                    nghiệp,
-                    các đơn vị, cơ sở sản xuất trong mối liên hệ giữa đào tạo và sử dụng, giữa nghiên cứu với thực
-                    tiễn
-                    đời sống kinh tế – xã hội của thành phố, khu vực và cả nước.  </p>
-                <p><strong>4. Nội dung thể hiện</strong></p>
-                <p>1. Kết cấu các chuyên đề:</p>
-                <p>– Khoa học Tự nhiên &amp; Công nghệ</p>
-                <p>– Khoa học Xã hội &amp; Nhân văn</p>
-                <p>– Khoa học Giáo dục</p>
-                <p>– Các chuyên đề khác</p>
-                <p>2. Kết cấu hình thức nội dung từng số:</p>
-                <p>– Bìa 1: Theo mẫu (đính kèm)</p>
-                <p>– Bìa 2: Hội đồng Biên tập và Giới thiệu Tòa soạn (theo mẫu đính kèm)</p>
-                <p>– Bìa 3: Thể lệ gửi bài</p>
-                <p>– Bìa 4: Theo mẫu (đính kèm)</p>
-                <p>– Trang 1 và 2: Mục lục tiếng Anh + tiếng Việt</p>
-                <p>– Các bài viết</p>
-                <p>– Trang cuối: Tin tức</p>
-                <p>3. Kết cấu nội dung từng bài:</p>
-                <p>– Bài báo khoa học phải có tính tổng hợp, nghiên cứu, có đóng góp mới và có tầm ảnh hưởng khoa
-                    học,
-                    viết đúng theo thể lệ của Tạp chí.</p>
-                <p>– Tóm tắt và từ khóa bằng tiếng Việt và tiếng Anh.</p>
-                <p>– Các phần bố cục chặt chẽ, logic.</p>
-                <p>– Tài liệu tham khảo phải được trình bày đúng qui chuẩn đã được đề cập trong thể lệ gửi bài đăng
-                    trênTạp chí.</p>
-                <p><strong>5. Hình thức thể hiện</strong></p>
-                <p>* Tạp chí</p>
-                <p>– Kì hạn xuất bản: Mỗi tháng 1 số (chưa bao gồm các số chuyên đề)</p>
-                <p>– Khuôn khổ: 19 x 27 cm</p>
-                <p>– Số trang in mỗi số: 120 – 130 trang</p>
-                <p>– Số lượng xuất bản mỗi kì: 1.000 cuốn</p>
-                <p>– Địa điểm in: Các nhà in trong toàn quốc</p>
-                <p>– Phạm vi phát hành: Trong nước và quốc tế</p>
-                <p>– Phương thức phát hành: Biếu tặng và tự phát hành</p>
-                <p>– Giá bán lẻ: Theo thời điểm</p>
-                <p><strong>6. Đối tượng phục vụ</strong></p>
-                <p>– Các nhà khoa học, các độc giả trong và ngoài nước.</p>
-                <p>– Cán bộ, giảng viên, học viên và sinh viên Trường Đại học Sài Gòn.</p>
-                <p>– Các trường cao đẳng, đại học, các viện, các học viện, các trung tâm nghiên cứu trong cả nước.
-                </p>
-                <p>– Các cơ sở giáo dục trong cả nước (Sở Giáo dục &amp; Đào tạo, Phòng Giáo dục, trường phổ thông
-                    và
-                    trung tâm Giáo dục thường xuyên).</p>
-                <p>– Các công ty, doanh nghiệp, đơn vị, cơ sở sản xuất có nhu cầu.</p>
             </div>
         </div>
+        <div class="about-journal-content">
+            <h3>1. Giới thiệu chung</h3>
+            <p>Tạp chí Khoa học Đại học Sài Gòn nằm trong hệ thống báo chí chính thống của nước Cộng hòa Xã hội Chủ
+                nghĩa Việt Nam, có tiếng nói khoa học ngang tầm với các Tạp chí khoa học ngành giáo dục và Tạp chí các
+                lĩnh vực khác.</p>
+            <p>Tạp chí Khoa học Đại học Sài Gòn có chỉ số Quốc tế ISSN 1859 – 3208, khẳng định Tạp chí đạt tiêu chuẩn
+                Quốc tế về lĩnh vực khoa học. Giáo sư, Phó Giáo sư, Tiến sĩ, Nghiên cứu sinh, Thạc sĩ, Học viên cao học,
+                giảng viên, sinh viên có công trình nghiên cứu khoa học theo đúng nội dung định hướng của Tạp chí, được
+                đăng trên Tạp chí sẽ được tính điểm nghiên cứu khoa học theo quy định.</p>
+            <h3>2. Tên gọi Tạp chí</h3>
+            <ul>
+                <li>Tên tiếng Việt: Tạp chí Khoa học Đại học Sài Gòn.</li>
+                <li>Tên tiếng Anh: Scientific Journal of Saigon University.</li>
+                <li>Tên viết tắt: SJSGU.</li>
+                <li>Trụ sở: 273 An Dương Vương, Phường 3, Quận 5, Thành phố Hồ Chí Minh.</li>
+                <li>ĐT: 08.38321360; Email: <a href="mailto:tcdhsg@sgu.edu.vn">tcdhsg@sgu.edu.vn</a></li>
+                <li>Tạp chí Khoa học Đại học Sài Gòn có con dấu riêng.</li>
+            </ul>
+            <h3>3. Tôn chỉ, mục đích</h3>
+            <p>Tạp chí Khoa học Đại học Sài Gòn là diễn đàn khoa học công bố các kết quả nghiên cứu và hoạt động khoa
+                học của cán bộ, giảng viên, sinh viên Trường Đại học Sài Gòn, gắn nghiên cứu khoa học của nhà trường với
+                thực tiễn sản xuất, đổi mới và phát triển của đất nước.</p>
+            <p>Tạp chí Khoa học Đại học Sài Gòn sẽ là diễn đàn trao đổi tư duy, quan điểm, định hướng nghiên cứu khoa
+                học đa ngành giữa các nhà khoa học, các nhà quản lý, các học giả, các nhà giáo ở các trường cao đẳng,
+                đại học, các viện, các học viện, các trung tâm nghiên cứu trong và ngoài nước; góp phần từng bước hoàn
+                thiện và nâng cao chức năng, nhiệm vụ đào tạo và nghiên cứu khoa học của Trường Đại học Sài Gòn.</p>
+            <p>Tạp chí Khoa học Đại học Sài Gòn là cầu nối quan trọng giữa Trường Đại học Sài Gòn với các cơ sở giáo dục
+                trong hệ thống giáo dục quốc dân, với các công ty, doanh nghiệp, các đơn vị, cơ sở sản xuất trong mối
+                liên hệ giữa đào tạo và sử dụng, giữa nghiên cứu với thực tiễn đời sống kinh tế – xã hội của thành phố,
+                khu vực và cả nước.</p>
+            <h3>4. Nội dung thể hiện</h3>
+            <ul>
+                <li>Kết cấu các chuyên đề:
+                    <ul>
+                        <li>Khoa học Tự nhiên &amp; Công nghệ</li>
+                        <li>Khoa học Xã hội &amp; Nhân văn</li>
+                        <li>Khoa học Giáo dục</li>
+                        <li>Các chuyên đề khác</li>
+                    </ul>
+                </li>
+                <li>Kết cấu hình thức nội dung từng số:
+                    <ul>
+                        <li>Bìa 1: Theo mẫu (đính kèm)</li>
+                        <li>Bìa 2: Hội đồng Biên tập và Giới thiệu Tòa soạn (theo mẫu đính kèm)</li>
+                        <li>Bìa 3: Thể lệ gửi bài</li>
+                        <li>Bìa 4: Theo mẫu (đính kèm)</li>
+                        <li>Trang 1 và 2: Mục lục tiếng Anh + tiếng Việt</li>
+                        <li>Các bài viết</li>
+                        <li>Trang cuối: Tin tức</li>
+                    </ul>
+                </li>
+                <li>Kết cấu nội dung từng bài:
+                    <ul>
+                        <li>Bài báo khoa học phải có tính tổng hợp, nghiên cứu, có đóng góp mới và có tầm ảnh hưởng khoa
+                            học, viết đúng theo thể lệ của Tạp chí.</li>
+                        <li>Tóm tắt và từ khóa bằng tiếng Việt và tiếng Anh.</li>
+                        <li>Các phần bố cục chặt chẽ, logic.</li>
+                        <li>Tài liệu tham khảo phải được trình bày đúng qui chuẩn đã được đề cập trong thể lệ gửi bài
+                            đăng trên Tạp chí.</li>
+                    </ul>
+                </li>
+            </ul>
+            <h3>5. Hình thức thể hiện</h3>
+            <ul>
+                <li>Kì hạn xuất bản: Mỗi tháng 1 số (chưa bao gồm các số chuyên đề)</li>
+                <li>Khuôn khổ: 19 x 27 cm</li>
+                <li>Số trang in mỗi số: 120 – 130 trang</li>
+                <li>Số lượng xuất bản mỗi kì: 1.000 cuốn</li>
+                <li>Địa điểm in: Các nhà in trong toàn quốc</li>
+                <li>Phạm vi phát hành: Trong nước và quốc tế</li>
+                <li>Phương thức phát hành: Biếu tặng và tự phát hành</li>
+                <li>Giá bán lẻ: Theo thời điểm</li>
+            </ul>
+            <h3>6. Đối tượng phục vụ</h3>
+            <ul>
+                <li>Các nhà khoa học, các độc giả trong và ngoài nước.</li>
+                <li>Cán bộ, giảng viên, học viên và sinh viên Trường Đại học Sài Gòn.</li>
+                <li>Các trường cao đẳng, đại học, các viện, các học viện, các trung tâm nghiên cứu trong cả nước.</li>
+                <li>Các cơ sở giáo dục trong cả nước (Sở Giáo dục &amp; Đào tạo, Phòng Giáo dục, trường phổ thông và
+                    trung tâm Giáo dục thường xuyên).</li>
+                <li>Các công ty, doanh nghiệp, đơn vị, cơ sở sản xuất có nhu cầu.</li>
+            </ul>
+        </div>
     </div>
-</div>
 </body>
+
+</html>
