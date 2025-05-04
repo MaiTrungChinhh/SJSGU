@@ -1,72 +1,358 @@
-.pkp_navigation_user_wrapper {
-    position: absolute;
-    top: 50%;
-    left: 63%;
-    transform: translateX(-50%);
-    padding-left: @base;
-    padding-right: @base;
-    text-align: right;
-    padding-top: 0;
-    margin-top: 0;
-    border-top: none;
-    z-index: 1000;
-    transition: all 0.3s ease;
+/* SGU Journal Header Styles */
+
+/* Base variables */
+:root {
+    --sgu-primary: #153a8a;
+    --sgu-secondary: #009fe3;
+    --sgu-accent: #3b3b99;
+    --sgu-text: #222;
+    --sgu-light: #fff;
+    --sgu-border: #e5e5e5;
+    --sgu-shadow: rgba(0, 0, 0, 0.1);
+    --sgu-transition: all 0.3s ease;
+    --sgu-radius: 4px;
 }
 
+/* Header wrapper */
+.sgu-header-wrapper {
+    width: 100%;
+    background-color: var(--sgu-light);
+}
+
+/* Top header with journal info */
+.sgu-header-top {
+    border-bottom: 4px solid var(--sgu-secondary);
+    padding: 2rem 0;
+}
+
+.sgu-header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.sgu-header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Journal information */
+.sgu-header-info {
+    flex: 1;
+}
+
+.sgu-journal-name {
+    font-size: 1.25rem;
+    font-family: serif;
+    color: var(--sgu-text);
+}
+
+.sgu-university-name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--sgu-primary);
+    line-height: 1.1;
+    margin: 0.25rem 0;
+}
+
+.sgu-journal-english {
+    font-size: 1.125rem;
+    font-style: italic;
+    color: var(--sgu-text);
+    margin-bottom: 0.5rem;
+}
+
+.sgu-university-full {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--sgu-primary);
+    margin-bottom: 0.5rem;
+}
+
+.sgu-university-english {
+    color: var(--sgu-accent);
+}
+
+.sgu-website-link {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+.sgu-website-link a {
+    color: var(--sgu-text);
+    text-decoration: underline;
+    transition: var(--sgu-transition);
+}
+
+.sgu-website-link a:hover {
+    color: var(--sgu-secondary);
+}
+
+/* Logo area */
+.sgu-header-logo {
+    text-align: right;
+    min-width: 180px;
+}
+
+.sgu-issn {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--sgu-primary);
+    margin-bottom: 0.5rem;
+}
+
+.sgu-header-logo img {
+    width: 120px;
+    height: auto;
+}
+
+/* Navigation bar */
+.sgu-nav-wrapper {
+    background-color: var(--sgu-primary);
+    box-shadow: 0 2px 4px var(--sgu-shadow);
+}
+
+.sgu-nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Site name and mobile menu toggle */
+.sgu-site-name {
+    display: flex;
+    align-items: center;
+}
+
+.sgu-home-link {
+    display: none;
+    /* Hidden on desktop, shown on mobile */
+}
+
+.sgu-home-link img {
+    height: 40px;
+    width: auto;
+}
+
+.sgu-menu-toggle {
+    display: none;
+    /* Hidden on desktop, shown on mobile */
+    background: none;
+    border: none;
+    color: var(--sgu-light);
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+/* Navigation */
+.sgu-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.sgu-nav-primary {
+    display: flex;
+    align-items: center;
+}
+
+/* Primary navigation menu */
+.sgu-nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sgu-nav-menu li {
+    position: relative;
+}
+
+.sgu-nav-menu a {
+    display: block;
+    color: var(--sgu-light);
+    padding: 1rem;
+    text-decoration: none;
+    transition: var(--sgu-transition);
+}
+
+.sgu-nav-menu a:hover,
+.sgu-nav-menu a:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Search */
+.sgu-search-wrapper {
+    margin-left: 1rem;
+}
+
+.sgu-search-link {
+    display: flex;
+    align-items: center;
+    color: var(--sgu-light);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: var(--sgu-radius);
+    transition: var(--sgu-transition);
+}
+
+.sgu-search-link:hover,
+.sgu-search-link:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sgu-search-link i {
+    margin-right: 0.5rem;
+}
+
+/* User navigation */
+.sgu-nav-user {
+    position: relative;
+}
+
+.sgu-user-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sgu-user-menu li {
+    position: relative;
+}
+
+.sgu-user-menu a {
+    display: block;
+    color: var(--sgu-light);
+    padding: 1rem;
+    text-decoration: none;
+    transition: var(--sgu-transition);
+}
+
+.sgu-user-menu a:hover,
+.sgu-user-menu a:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Screen reader only */
+.sgu-sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+/* Responsive styles */
 @media (max-width: 992px) {
-    .pkp_site_name_wrapper {
-        height: 13rem;
+    // .sgu-header-content {
+    //     flex-direction: column;
+    // }
+
+    .sgu-header-logo {
+        text-align: left;
+        margin-top: 1rem;
     }
 
-    .pkp_head_wrapper {
-        height: 40px;
-    }
-
-    .pkp_navigation_user_wrapper {
-        position: relative;
-        top: 0;
-        left: 0;
-        transform: none;
-        width: 100%;
-        text-align: center;
-        padding: 10px 0;
-        background: rgba(255, 255, 255, 0.95);
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
-
-    .pkp_navigation_user {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 15px;
+    .sgu-nav-container {
         flex-wrap: wrap;
     }
 
-    .pkp_navigation_user li {
-        margin: 0;
+    .sgu-site-name {
+        width: 100%;
+        justify-content: space-between;
+        padding: 0.5rem 0;
     }
-}
 
-@media (max-width: 565px) {
-    .pkp_site_name_wrapper {
-        height: 17rem;
-    }
-}
-
-.display-logo-mini {
-    display: none;
-}
-
-@media (max-width: 425px) {
-    .display-logo-mini {
+    .sgu-home-link {
         display: block;
-        /* hoặc inline-block tùy theo bố cục */
+    }
+
+    .sgu-menu-toggle {
+        display: block;
+    }
+
+    .sgu-navigation {
+        flex-direction: column;
+        width: 100%;
+        display: none;
+        /* Hidden by default on mobile */
+    }
+
+    .sgu-navigation.is-active {
+        display: block;
+        /* Shown when menu is toggled */
+    }
+
+    .sgu-nav-primary {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .sgu-nav-menu {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .sgu-nav-menu a {
+        padding: 0.75rem 1rem;
+    }
+
+    .sgu-search-wrapper {
+        margin: 0;
+        width: 100%;
+    }
+
+    .sgu-search-link {
+        padding: 0.75rem 1rem;
+        width: 100%;
+    }
+
+    .sgu-nav-user {
+        width: 100%;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .sgu-user-menu {
+        flex-direction: column;
+        width: 100%;
     }
 }
 
-// 425 is hide logo sgu 
-@media (max-width: 425px) {
+@media (max-width: 768px) {
+    .sgu-university-name {
+        font-size: 2rem;
+    }
+
+    .sgu-journal-english,
+    .sgu-university-full {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
     .sgu-header-logo {
         display: none;
     }
+
+    .sgu-university-name {
+        font-size: 1.75rem;
+    }
+
+    .sgu-journal-name {
+        font-size: 1.125rem;
+    }
 }
+
+/* JavaScript for mobile menu toggle */
