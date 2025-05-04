@@ -721,7 +721,7 @@ msgid "common.replaceFile"
 msgstr "Thay thế tập tin"
 
 msgid "common.requiredField"
-msgstr "* Những trường bắt buộc"
+msgstr "Những trường bắt buộc"
 
 msgid "common.required"
 msgstr "Yêu cầu"
