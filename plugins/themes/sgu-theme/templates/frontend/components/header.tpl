@@ -41,7 +41,7 @@
 								<i class="fa fa-link"></i> <a href="https://sj.sgu.edu.vn" style="color: #222; text-decoration: underline;">sj.sgu.edu.vn</a>
 							</div>
 						</div>
-						<div style="text-align: right; padding-right: 30px; min-width: 220px;">
+						<div class="sgu-header-logo" style="text-align: right; padding-right: 30px; min-width: 220px;">
 							<div style="font-size: 16px; font-weight: bold; color: #153a8a;">ISSN 1859 - 3208</div>
 								<img src="{$publicFilesDir}/{$displayPageHeaderLogo.uploadName|escape:"url"}" style="width: 120px; height: auto;" {if $displayPageHeaderLogo.altText != ''}alt="{$displayPageHeaderLogo.altText|escape}"{/if} />
 							</div>
@@ -52,7 +52,7 @@
 
 			<div class="pkp_head_wrapper">
 
-				{* <div class="pkp_site_name_wrapper">
+				<div class="pkp_site_name_wrapper">
 					<button class="pkp_site_nav_toggle">
 						<span>Open Menu</span>
 					</button>
@@ -66,22 +66,24 @@
 						</h1>
 					{/if}
 					<div class="pkp_site_name">
-					{capture assign="homeUrl"}
-						{url page="index" router=$smarty.const.ROUTE_PAGE}
-					{/capture}
-					{if $displayPageHeaderLogo}
-						<a href="{$homeUrl}" class="is_img">
-							<img src="{$publicFilesDir}/{$displayPageHeaderLogo.uploadName|escape:"url"}" width="{$displayPageHeaderLogo.width|escape}" height="{$displayPageHeaderLogo.height|escape}" {if $displayPageHeaderLogo.altText != ''}alt="{$displayPageHeaderLogo.altText|escape}"{/if} />
-						</a>
-					{elseif $displayPageHeaderTitle}
-						<a href="{$homeUrl}" class="is_text">{$displayPageHeaderTitle|escape}</a>
-					{else}
-						<a href="{$homeUrl}" class="is_img">
-							<img src="{$baseUrl}/templates/images/structure/logo.png" alt="{$applicationName|escape}" title="{$applicationName|escape}" width="180" height="90" />
-						</a>
-					{/if}
+						{capture assign="homeUrl"}
+							{url page="index" router=$smarty.const.ROUTE_PAGE}
+						{/capture}
+						<div class="display-logo-mini">
+							{if $displayPageHeaderLogo}
+								<a href="{$homeUrl}" class="is_img">
+									<img src="{$publicFilesDir}/{$displayPageHeaderLogo.uploadName|escape:"url"}" width="{$displayPageHeaderLogo.width|escape}" height="{$displayPageHeaderLogo.height|escape}" {if $displayPageHeaderLogo.altText != ''}alt="{$displayPageHeaderLogo.altText|escape}"{/if} />
+								</a>
+							{elseif $displayPageHeaderTitle}
+								<a href="{$homeUrl}" class="is_text">{$displayPageHeaderTitle|escape}</a>
+							{else}
+								<a href="{$homeUrl}" class="is_img">
+									<img src="{$baseUrl}/templates/images/structure/logo.png" alt="{$applicationName|escape}" title="{$applicationName|escape}" width="180" height="90" />
+								</a>
+							{/if}
+						</div>
 					</div>
-				</div> *}
+				</div>
 
 				{capture assign="primaryMenu"}
 					{load_menu name="primary" id="navigationPrimary" ulClass="pkp_navigation_primary"}
