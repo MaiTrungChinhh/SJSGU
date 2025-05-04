@@ -129,3 +129,24 @@ msgstr "Chào mừng bạn đã đăng ký tài khoản!"
 
 msgid "user.register.alreadyHaveAccount"
 msgstr "Bạn đã có tài khoản?"
+
+msgid "about.editorialTeam"
+msgstr "Ban biên tập"
+
+msgid "about.editorialTeam.chairman"
+msgstr "Chủ tịch"
+
+msgid "about.editorialTeam.editorInChief"
+msgstr "Tổng biên tập"
+
+msgid "about.editorialTeam.boardMember"
+msgstr "Thành viên hội đồng"
+
+msgid "about.editorialTeam.secretary"
+msgstr "Thư ký biên tập"
+
+msgid "about.editorialTeam.assistant"
+msgstr "Trợ lý biên tập"
+
+msgid "about.contact"
+msgstr "Thông tin liên hệ"

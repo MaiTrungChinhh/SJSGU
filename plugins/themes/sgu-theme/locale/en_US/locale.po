@@ -129,3 +129,24 @@ msgstr "Welcome! Your account has been successfully created."
 
 msgid "user.register.alreadyHaveAccount"
 msgstr "Already have an account?"
+
+msgid "about.editorialTeam"
+msgstr "Editorial Board"
+
+msgid "about.editorialTeam.chairman"
+msgstr "Chairman"
+
+msgid "about.editorialTeam.editorInChief"
+msgstr "Editor-in-Chief"
+
+msgid "about.editorialTeam.boardMember"
+msgstr "Board Member"
+
+msgid "about.editorialTeam.secretary"
+msgstr "Editorial Secretary"
+
+msgid "about.editorialTeam.assistant"
+msgstr "Editorial Assistant"
+
+msgid "about.contact"
+msgstr "Contact Information"
