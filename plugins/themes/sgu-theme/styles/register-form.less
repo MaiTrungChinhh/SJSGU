@@ -1,8 +1,452 @@
-.buttons .login {
+/**
+ * @file plugins/themes/sgu-theme/styles/register.less
+ *
+ * Copyright (c) 2014-2023 Simon Fraser University
+ * Copyright (c) 2003-2023 John Willinsky
+ * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+ *
+ * @brief Styles for the registration page
+ */
+
+/* Variables */
+@register-primary: #153a8a;
+@register-secondary: #009fe3;
+@register-accent: #3b3b99;
+@register-error: #d32f2f;
+@register-success: #388e3c;
+@register-text: #333;
+@register-text-light: #666;
+@register-border: #e0e0e0;
+@register-shadow: rgba(0, 0, 0, 0.1);
+@register-transition: all 0.3s ease;
+@register-radius: 8px;
+
+/* === PAGE REGISTER LAYOUT === */
+.page_register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+    background-color: #f5f7fa;
+    min-height: calc(100vh - 200px);
+    /* Adjust based on your header/footer height */
+}
+
+.register-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.register-card {
+    display: flex;
+    background-color: #fff;
+    border-radius: @register-radius;
+    overflow: hidden;
+    box-shadow: 0 10px 30px @register-shadow;
+    margin: 2rem 0;
+}
+
+/* === REGISTER IMAGE SECTION === */
+.register-image-container {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    min-height: 500px;
+    max-width: 40%;
+}
+
+.register-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.5s ease;
+}
+
+.register-card:hover .register-image {
+    transform: scale(1.05);
+}
+
+.register-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(21, 58, 138, 0.85) 0%, rgba(0, 159, 227, 0.85) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.register-overlay-content {
+    color: #fff;
+    text-align: center;
+    max-width: 80%;
+}
+
+.register-overlay-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.register-overlay-content p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    line-height: 1.6;
+}
+
+/* === REGISTER FORM SECTION === */
+.register-form-container {
+    flex: 2;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    max-height: 800px;
+}
+
+.register-form-header {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.register-form-header h1 {
+    color: @register-primary;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.register-subtitle {
+    color: @register-text-light;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.required-note {
+    font-size: 0.9rem;
+    color: @register-text-light;
+
+    .required {
+        color: @register-error;
+        margin-right: 0.25rem;
+    }
+}
+
+/* === FORM CONTENT === */
+.form-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form-section {
+    border-bottom: 1px solid @register-border;
+    padding-bottom: 1.5rem;
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.form-section-title {
+    font-size: 1.25rem;
+    color: @register-primary;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+/* === FORM STYLING === */
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1.25rem;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.form-group label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: @register-text;
+
+    .required {
+        color: @register-error;
+        margin-left: 0.25rem;
+    }
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group select {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    background-color: #f5f7fa;
+    border: 1px solid @register-border;
+    border-radius: 4px;
+    transition: @register-transition;
+
+    &:focus {
+        outline: none;
+        border-color: @register-secondary;
+        box-shadow: 0 0 0 3px rgba(0, 159, 227, 0.2);
+    }
+
+    &::placeholder {
+        color: #aaa;
+    }
+}
+
+.form-text {
+    font-size: 0.85rem;
+    color: @register-text-light;
+    margin-top: 0.25rem;
+}
+
+/* === CHECKBOX STYLING === */
+.checkbox-group {
+    margin-bottom: 1rem;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+
+    input[type="checkbox"] {
+        margin-right: 0.75rem;
+        margin-top: 0.25rem;
+        cursor: pointer;
+        width: 1.1rem;
+        height: 1.1rem;
+        accent-color: @register-primary;
+    }
+
+    .checkbox-text {
+        font-size: 0.95rem;
+        color: @register-text;
+        line-height: 1.5;
+
+        a {
+            color: @register-secondary;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+                color: @register-primary;
+            }
+        }
+    }
+}
+
+/* === REVIEWER OPTIONS === */
+.reviewer-options {
+    margin-bottom: 1.5rem;
+}
+
+/* === RECAPTCHA === */
+.recaptcha-section {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.recaptcha-wrapper {
+    transform: scale(0.9);
+    transform-origin: center;
+    margin: -10px;
+}
+
+/* === FORM ACTIONS === */
+.form-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    border-top: 1px solid @register-border;
+    padding-top: 1.5rem;
+}
+
+.submit-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: @register-primary;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.9rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: @register-transition;
+
+    &:hover,
+    &:focus {
+        background-color: darken(@register-primary, 10%);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(21, 58, 138, 0.3);
+    }
+
+    &:active {
+        transform: translateY(0);
+    }
+
+    i {
+        font-size: 1.1rem;
+    }
+}
+
+.login-link-container {
+    text-align: center;
+    color: @register-text-light;
+    font-size: 0.95rem;
+}
+
+.login-link {
+    color: @register-secondary;
     text-decoration: none;
-    transition: background-color 0.2s, border-color 0.2s;
+    font-weight: 600;
+    margin-left: 0.25rem;
+    transition: @register-transition;
 
     &:hover {
-        background-color: rgb(100, 100, 100);
+        color: @register-primary;
+        text-decoration: underline;
     }
+}
+
+/* === ERROR MESSAGES === */
+.pkp_form_error {
+    background-color: rgba(211, 47, 47, 0.1);
+    border-left: 4px solid @register-error;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 4px;
+    color: @register-error;
+    font-size: 0.95rem;
+}
+
+/* === RESPONSIVE DESIGN === */
+@media (max-width: 992px) {
+    .register-card {
+        flex-direction: column;
+    }
+
+    .register-image-container {
+        min-height: 250px;
+        max-width: 100%;
+    }
+
+    .register-form-container {
+        padding: 1.5rem;
+        max-height: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .register-overlay-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .register-overlay-content p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .page_register {
+        padding: 1rem;
+    }
+
+    .register-card {
+        margin: 1rem 0;
+        box-shadow: 0 5px 15px @register-shadow;
+    }
+
+    .register-image-container {
+        min-height: 180px;
+    }
+
+    .register-form-container {
+        padding: 1.25rem;
+    }
+
+    .form-section-title {
+        font-size: 1.1rem;
+    }
+}
+
+/* === FORM ERRORS === */
+.formErrorList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 1rem 0;
+    color: @register-error;
+    font-size: 0.9rem;
+}
+
+/* === REGISTRATION FORM COMPONENTS === */
+.registration-form-name {
+    display: flex;
+    gap: 1rem;
+
+    @media (max-width: 576px) {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+/* === CUSTOM SCROLLBAR === */
+.register-form-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.register-form-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.register-form-container::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 10px;
+}
+
+.register-form-container::-webkit-scrollbar-thumb:hover {
+    background: #aaa;
+}
+
+/* === ANIMATION === */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.register-form-container {
+    animation: fadeIn 0.5s ease-out;
 }
