@@ -12,97 +12,104 @@
 
 <div class="page page_login">
 	{include file="frontend/components/breadcrumbs.tpl" currentTitleKey="user.login"}
-	<div class="container">
-		<div class="login-image">
-			<img class="sgu-background" src="{$baseUrl}/plugins/themes/sgu-theme/images/sgu_background.jpg"
-				alt="Login Illustration">
-		</div>
-		<div>
-			<h1>
-				{translate key="user.login"}
-			</h1>
 
-			<p>
-				{translate key="common.requiredField"}
-			</p>
-			{* A login message may be displayed if the user was redireceted to the
-login page from another request. Examples include if login is required
-before dowloading a file. *}
-			{if $loginMessage}
-				<p>
-					{translate key=$loginMessage}
-				</p>
-			{/if}
-			<form class="cmp_form cmp_form login" id="login" method="post" action="{$loginUrl}">
-				{csrf}
+	<div class="login-container">
+		<div class="login-card">
+			<div class="login-image-container">
+				<img class="login-image" src="{$baseUrl}/plugins/themes/sgu-theme/images/sgu_background.jpg"
+					alt="Login Illustration">
+				<div class="login-overlay">
+					<div class="login-overlay-content">
+						<h2>{translate key="user.login"}</h2>
+						<p>{translate key="user.login.welcomeMessage"}</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="login-form-container">
+				<div class="login-form-header">
+					<h1>{translate key="user.login"}</h1>
+					<p class="login-subtitle">{translate key="user.login.loginToYourAccount"}</p>
+				</div>
+
+				{* Login message may be displayed if user was redirected *}
+				{if $loginMessage}
+					<div class="login-message">
+						{translate key=$loginMessage}
+					</div>
+				{/if}
 
 				{if $error}
-					<div class="pkp_form_error">
+					<div class="login-error">
+						<i class="fas fa-exclamation-circle"></i>
 						{translate key=$error reason=$reason}
 					</div>
 				{/if}
 
-				<input type="hidden" name="source" value="{$source|default:""|escape}" />
+				<form class="login-form" id="login" method="post" action="{$loginUrl}">
+					{csrf}
+					<input type="hidden" name="source" value="{$source|default:""|escape}" />
 
-				<fieldset class="fields">
-					<legend class="pkp_screen_reader">{translate key="user.login"}</legend>
-					<div class="username">
-						<label>
-							<span class="label">
-								{translate key="user.username"}
-								<span class="required" aria-hidden="true">*</span>
-								<span class="pkp_screen_reader">
-									{translate key="common.required"}
-								</span>
-							</span>
-							<input type="text" name="username" id="username" value="{$username|default:""|escape}"
-								maxlength="32" required aria-required="true">
+					<div class="form-group">
+						<label for="username">
+							<i class="fas fa-user"></i>
+							<span>{translate key="user.username"}</span>
+							<span class="required">*</span>
 						</label>
+						<input type="text" name="username" id="username" value="{$username|default:""|escape}"
+							maxlength="32" required aria-required="true"
+							placeholder="{translate key="user.login.usernameOrEmail"}">
 					</div>
-					<div class="password">
-						<label>
-							<span class="label">
-								{translate key="user.password"}
-								<span class="required" aria-hidden="true">*</span>
-								<span class="pkp_screen_reader">
-									{translate key="common.required"}
-								</span>
-							</span>
+
+					<div class="form-group">
+						<label for="password">
+							<i class="fas fa-lock"></i>
+							<span>{translate key="user.password"}</span>
+							<span class="required">*</span>
+						</label>
+						<div class="password-input-container">
 							<input type="password" name="password" id="password" value="{$password|default:""|escape}"
-								password="true" maxlength="32" required aria-required="true">
-							<button type="button" class="toggle-password" aria-label="Toggle password visibility">
+								password="true" maxlength="32" required aria-required="true"
+								placeholder="{translate key="user.login.password"}">
+							<button type="button" class="toggle-password"
+								aria-label="{translate key="user.login.togglePasswordVisibility"}">
 								<i class="fas fa-eye"></i>
 							</button>
-							<a class="lost-password" href="{url page="login" op="lostPassword"}">
-								{translate key="user.login.forgotPassword"}
-							</a>
-						</label>
+						</div>
 					</div>
-					<div class="remember checkbox">
-						<label>
+
+					<div class="form-options">
+						<div class="remember-checkbox">
 							<input type="checkbox" name="remember" id="remember" value="1" checked="$remember">
-							<span class="label">
+							<label for="remember">
 								{translate key="user.login.rememberUsernameAndPassword"}
-							</span>
-						</label>
+							</label>
+						</div>
+						<a class="forgot-password" href="{url page="login" op="lostPassword"}">
+							{translate key="user.login.forgotPassword"}
+						</a>
 					</div>
-					<div class="buttons">
-						<button id="login-button" class="submit" type="submit">
-							<i class="icon fas fa-sign-in-alt mr-1 ng-star-inserted"></i>
-							{translate key="user.login"}
+
+					<div class="form-actions">
+						<button id="login-button" class="submit-button" type="submit">
+							<i class="fas fa-sign-in-alt"></i>
+							<span>{translate key="user.login"}</span>
 						</button>
 
 						{if !$disableUserReg}
-							{capture assign=registerUrl}{url page="user" op="register" source=$source}{/capture}
-							<a href="{$registerUrl}" class="register">
-								{translate key="user.login.registerNewAccount"}
-							</a>
+							<div class="register-link-container">
+								<span>{translate key="user.login.needAnAccount"}</span>
+								{capture assign=registerUrl}{url page="user" op="register" source=$source}{/capture}
+								<a href="{$registerUrl}" class="register-link">
+									{translate key="user.login.registerNewAccount"}
+								</a>
+							</div>
 						{/if}
 					</div>
-				</fieldset>
-			</form>
+				</form>
+			</div>
 		</div>
 	</div>
-</div><!-- .page -->
+</div>
 
 {include file="frontend/components/footer.tpl"}
