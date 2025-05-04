@@ -114,3 +114,18 @@ msgstr "Tên người dùng hoặc email"
 
 msgid "user.login.password"
 msgstr "Mật khẩu"
+
+msgid "user.register.form.interests"
+msgstr "Sở thích"
+
+msgid "user.register.createAccount"
+msgstr "Tạo tài khoản"
+
+msgid "user.register.privacyConsent"
+msgstr "Tôi đồng ý với chính sách quyền riêng tư"
+
+msgid "user.register.welcomeMessage"
+msgstr "Chào mừng bạn đã đăng ký tài khoản!"
+
+msgid "user.register.alreadyHaveAccount"
+msgstr "Bạn đã có tài khoản?"
