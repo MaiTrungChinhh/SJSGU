@@ -10,6 +10,7 @@
     margin-top: 0;
     border-top: none;
     z-index: 1000;
+    transition: all 0.3s ease;
 }
 
 @media (max-width: 992px) {
@@ -19,6 +20,30 @@
 
     .pkp_head_wrapper {
         height: 40px;
+    }
+
+    .pkp_navigation_user_wrapper {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        background: rgba(255, 255, 255, 0.95);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .pkp_navigation_user {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .pkp_navigation_user li {
+        margin: 0;
     }
 }
 
