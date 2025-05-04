@@ -114,3 +114,18 @@ msgstr "Username or email"
 
 msgid "user.login.password"
 msgstr "Password"
+
+msgid "user.register.form.interests"
+msgstr "Interests"
+
+msgid "user.register.createAccount"
+msgstr "Create Account"
+
+msgid "user.register.privacyConsent"
+msgstr "I agree to the privacy policy"
+
+msgid "user.register.welcomeMessage"
+msgstr "Welcome! Your account has been successfully created."
+
+msgid "user.register.alreadyHaveAccount"
+msgstr "Already have an account?"
