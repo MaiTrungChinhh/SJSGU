@@ -99,3 +99,18 @@ msgstr "Please select the appropriate genre for the file you are submitting (e.g
 
 msgid "common.editItem"
 msgstr "Edit item"
+
+msgid "user.login.loginToYourAccount"
+msgstr "Sign in to your account"
+
+msgid "user.login.welcomeMessage"
+msgstr "Welcome! Please log in to continue."
+
+msgid "user.login.needAnAccount"
+msgstr "Don't have an account?"
+
+msgid "user.login.usernameOrEmail"
+msgstr "Username or email"
+
+msgid "user.login.password"
+msgstr "Password"

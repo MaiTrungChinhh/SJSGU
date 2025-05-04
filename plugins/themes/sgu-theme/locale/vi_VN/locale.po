@@ -99,3 +99,18 @@ msgstr "Vui lòng chọn thể loại phù hợp cho tập tin bạn đang gửi
 
 msgid "common.editItem"
 msgstr "Chỉnh sửa mục"
+
+msgid "user.login.loginToYourAccount"
+msgstr "Đăng nhập vào tài khoản của bạn"
+
+msgid "user.login.welcomeMessage"
+msgstr "Chào mừng! Vui lòng đăng nhập để tiếp tục."
+
+msgid "user.login.needAnAccount"
+msgstr "Chưa có tài khoản?"
+
+msgid "user.login.usernameOrEmail"
+msgstr "Tên người dùng hoặc email"
+
+msgid "user.login.password"
+msgstr "Mật khẩu"
