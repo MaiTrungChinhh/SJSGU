@@ -11,3 +11,37 @@
     border-top: none;
     z-index: 1000;
 }
+
+@media (max-width: 992px) {
+    .pkp_site_name_wrapper {
+        height: 13rem;
+    }
+
+    .pkp_head_wrapper {
+        height: 40px;
+    }
+}
+
+@media (max-width: 565px) {
+    .pkp_site_name_wrapper {
+        height: 17rem;
+    }
+}
+
+.display-logo-mini {
+    display: none;
+}
+
+@media (max-width: 425px) {
+    .display-logo-mini {
+        display: block;
+        /* hoặc inline-block tùy theo bố cục */
+    }
+}
+
+// 425 is hide logo sgu 
+@media (max-width: 425px) {
+    .sgu-header-logo {
+        display: none;
+    }
+}
