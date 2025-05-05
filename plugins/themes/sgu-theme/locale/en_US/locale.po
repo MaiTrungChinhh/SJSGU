@@ -150,3 +150,6 @@ msgstr "Editorial Assistant"
 
 msgid "about.contact"
 msgstr "Contact Information"
+
+msgid "user.login.resetPasswordHelp"
+msgstr "Enter your email address to reset your password."

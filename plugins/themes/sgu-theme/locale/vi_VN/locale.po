@@ -150,3 +150,6 @@ msgstr "Trợ lý biên tập"
 
 msgid "about.contact"
 msgstr "Thông tin liên hệ"
+
+msgid "user.login.resetPasswordHelp"
+msgstr "Nhập địa chỉ email của bạn để đặt lại mật khẩu."
