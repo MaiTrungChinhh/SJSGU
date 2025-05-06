@@ -69,7 +69,11 @@
                 const submitButton = document.getElementById("login-button")
 
                 if (submitButton) {
-                    submitButton.innerHTML = '<i class="fas fa-circle-notch fa-spin"></i><span>Processing...</span>'
+                    const processingText = document.getElementById("js-processing-text")?.innerText || "Processing...";
+
+                    submitButton.innerHTML = `<i class="fas fa-circle-notch fa-spin"></i>
+                                                <span>${processingText}</span>`;
+
                     submitButton.disabled = true
                 }
             })

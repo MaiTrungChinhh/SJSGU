@@ -111,5 +111,6 @@
 		</div>
 	</div>
 </div>
+<span id="js-processing-text" class="d-none">{translate key="common.processing"}</span>
 
 {include file="frontend/components/footer.tpl"}
