@@ -10,8 +10,8 @@
 {if !$pageTitleTranslated}{capture assign="pageTitleTranslated"}{translate key=$pageTitle}{/capture}{/if}
 {include file="frontend/components/headerHead.tpl"}
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<script src="{$baseUrl}/plugins/themes/sgu-theme/js/passwordToggle.js"></script>
-<script src="{$baseUrl}/plugins/themes/sgu-theme/js/menu.js"></script>
+{* <script src="{$baseUrl}/plugins/themes/sgu-theme/js/indexJournall.js"></script> *}
+<script type="module" src="{$baseUrl}/plugins/themes/sgu-theme/js/index.js"></script>
 {* <script src="{$baseUrl}/plugins/themes/sgu-theme/js/registerForm.js"></script>
 <script src="{$baseUrl}/plugins/themes/sgu-theme/js/form.js"></script> *}
 {* <script src="{$baseUrl}/plugins/themes/sgu-theme/js/themeCustom.js"></script> *}
