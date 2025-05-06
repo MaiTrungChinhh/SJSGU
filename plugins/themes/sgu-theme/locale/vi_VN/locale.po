@@ -153,3 +153,12 @@ msgstr "Thông tin liên hệ"
 
 msgid "user.login.resetPasswordHelp"
 msgstr "Nhập địa chỉ email của bạn để đặt lại mật khẩu."
+
+msgid "about.submissions.description"
+msgstr "Quan tâm đến việc gửi bài cho tạp chí này? Chúng tôi khuyến nghị bạn xem trang Giới thiệu về Tạp chí để biết chính sách của từng phần, cũng như Hướng dẫn dành cho Tác giả. Tác giả cần đăng ký với tạp chí trước khi gửi bài hoặc, nếu đã đăng ký, có thể đăng nhập và bắt đầu quy trình gồm năm bước."
+
+msgid "about.onlineSubmissions"
+msgstr "Gửi bài trực tuyến"
+
+msgid "common.processing"
+msgstr "Đang xử lý..."

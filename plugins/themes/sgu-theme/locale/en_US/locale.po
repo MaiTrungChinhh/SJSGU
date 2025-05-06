@@ -153,3 +153,12 @@ msgstr "Contact Information"
 
 msgid "user.login.resetPasswordHelp"
 msgstr "Enter your email address to reset your password."
+
+msgid "about.submissions.description"
+msgstr "Interested in submitting to this journal? We recommend that you review the About the Journal page for the journal's section policies, as well as the Author Guidelines. Authors need to register with the journal prior to submitting or, if already registered, can simply log in and begin the five-step process."
+
+msgid "about.onlineSubmissions"
+msgstr "Online Submissions"
+
+msgid "common.processing"
+msgstr "Processing..."
