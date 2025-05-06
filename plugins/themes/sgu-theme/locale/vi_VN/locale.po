@@ -162,3 +162,57 @@ msgstr "Gửi bài trực tuyến"
 
 msgid "common.processing"
 msgstr "Đang xử lý..."
+
+msgid "plugins.themes.sgu-theme.footer.managingAgency"
+msgstr "Cơ quan chủ quản:"
+
+msgid "plugins.themes.sgu-theme.footer.saigonUniversity"
+msgstr "Trường Đại học Sài Gòn"
+
+msgid "plugins.themes.sgu-theme.footer.journalName"
+msgstr "Tên tạp chí:"
+
+msgid "plugins.themes.sgu-theme.footer.scientificJournal"
+msgstr "Tạp chí khoa học Đại Học Sài Gòn"
+
+msgid "plugins.themes.sgu-theme.footer.address"
+msgstr "273 An Dương Vương, Phường 3, Quận 5, Thành phố Hồ Chí Minh"
+
+msgid "plugins.themes.sgu-theme.footer.workingHours"
+msgstr "Thứ 2 - Thứ 6, từ 7h30 đến 17h00"
+
+msgid "plugins.themes.sgu-theme.footer.license"
+msgstr "số"
+
+msgid "plugins.themes.sgu-theme.footer.issuedBy"
+msgstr "ngày cấp"
+
+msgid "plugins.themes.sgu-theme.footer.editorialBoard"
+msgstr "Ban biên tập tạp chí khoa học Đại Học Sài Gòn"
+
+msgid "plugins.themes.sgu-theme.footer.editorInChief"
+msgstr "Tổng biên tập:"
+
+msgid "common.website"
+msgstr "Trang web:"
+
+msgid "common.email"
+msgstr "E-mail:"
+
+msgid "plugins.themes.sgu-theme.footer.phone"
+msgstr "Điện thoại:"
+
+msgid "plugins.themes.sgu-theme.footer.copyright"
+msgstr "Bản quyền thuộc Trường Đại học Sài Gòn"
+
+msgid "plugins.themes.sgu-theme.footer.addressTitle"
+msgstr "Địa chỉ:"
+
+msgid "plugins.themes.sgu-theme.footer.workingHoursTitle"
+msgstr "Thời gian làm việc:"
+
+msgid "plugins.themes.sgu-theme.footer.licenseTitle"
+msgstr "Giấy phép hoạt động tạp chí in và tạp chí điện tử số:"
+
+msgid "plugins.themes.sgu-theme.footer.issuedByTitle"
+msgstr "Do bộ Thông Tin và Truyền Thông cấp ngày:"

@@ -162,3 +162,57 @@ msgstr "Online Submissions"
 
 msgid "common.processing"
 msgstr "Processing..."
+
+msgid "plugins.themes.sgu-theme.footer.managingAgency"
+msgstr "Managing Agency:"
+
+msgid "plugins.themes.sgu-theme.footer.saigonUniversity"
+msgstr "Saigon University"
+
+msgid "plugins.themes.sgu-theme.footer.journalName"
+msgstr "Journal Name:"
+
+msgid "plugins.themes.sgu-theme.footer.scientificJournal"
+msgstr "Scientific Journal Sai Gon University"
+
+msgid "plugins.themes.sgu-theme.footer.address"
+msgstr "273 An Duong Vuong, Ward 3, District 5, Ho Chi Minh City"
+
+msgid "plugins.themes.sgu-theme.footer.workingHours"
+msgstr "Monday to Friday, 7:30 AM to 5:00 PM"
+
+msgid "plugins.themes.sgu-theme.footer.license"
+msgstr "License number"
+
+msgid "plugins.themes.sgu-theme.footer.issuedBy"
+msgstr "Issued on"
+
+msgid "plugins.themes.sgu-theme.footer.editorialBoard"
+msgstr "Editorial Board"
+
+msgid "plugins.themes.sgu-theme.footer.editorInChief"
+msgstr "Editor-in-Chief:"
+
+msgid "common.website"
+msgstr "Website:"
+
+msgid "common.email"
+msgstr "E-mail:"
+
+msgid "plugins.themes.sgu-theme.footer.phone"
+msgstr "Phone:"
+
+msgid "plugins.themes.sgu-theme.footer.copyright"
+msgstr "Copyright © Saigon University"
+
+msgid "plugins.themes.sgu-theme.footer.addressTitle"
+msgstr "Address:"
+
+msgid "plugins.themes.sgu-theme.footer.workingHoursTitle"
+msgstr "Working Hours:"
+
+msgid "plugins.themes.sgu-theme.footer.licenseTitle"
+msgstr "Print and Online Journal License No.:"
+
+msgid "plugins.themes.sgu-theme.footer.issuedByTitle"
+msgstr "Issued by the Ministry of Information and Communications on:"
