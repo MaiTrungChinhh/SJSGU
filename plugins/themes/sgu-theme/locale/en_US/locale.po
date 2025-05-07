@@ -216,3 +216,165 @@ msgstr "Print and Online Journal License No.:"
 
 msgid "plugins.themes.sgu-theme.footer.issuedByTitle"
 msgstr "Issued by the Ministry of Information and Communications on:"
+
+msgid "plugins.themes.sgu-theme.about.journal.alt"
+msgstr "Scientific Journal of Saigon University"
+
+msgid "plugins.themes.sgu-theme.about.journal.title"
+msgstr "SCIENTIFIC JOURNAL OF SAIGON UNIVERSITY"
+
+msgid "plugins.themes.sgu-theme.about.journal.subtitle"
+msgstr "Scientific Journal of Saigon University"
+
+msgid "plugins.themes.sgu-theme.about.journal.issn"
+msgstr "ISSN 1859 - 3208"
+
+msgid "plugins.themes.sgu-theme.about.journal.license"
+msgstr "No.: 1945/QD-SGU-TTTT&PTGD"
+
+msgid "plugins.themes.sgu-theme.about.journal.admin"
+msgstr "<strong>HCMC People's Committee</strong> - <strong>Saigon University</strong><br><strong>Socialist Republic of Vietnam</strong> - Independence, Freedom, Happiness"
+
+msgid "plugins.themes.sgu-theme.about.section.1.title"
+msgstr "1. General Introduction"
+
+msgid "plugins.themes.sgu-theme.about.section.1.paragraph.1"
+msgstr "The Scientific Journal of Saigon University is part of the official press system of the Socialist Republic of Vietnam, with scientific voice on par with educational science journals and other field journals."
+
+msgid "plugins.themes.sgu-theme.about.section.1.paragraph.2"
+msgstr "The Scientific Journal of Saigon University has the International ISSN 1859 - 3208, confirming that the Journal meets international standards in the field of science. Professors, Associate Professors, Doctors, PhD students, Masters, Graduate students, lecturers, and students with scientific research works according to the Journal's orientation will be counted for scientific research points as regulated."
+
+msgid "plugins.themes.sgu-theme.about.section.2.title"
+msgstr "2. Journal Name"
+
+msgid "plugins.themes.sgu-theme.about.section.2.vietnamese"
+msgstr "Vietnamese name: Tạp chí Khoa học Đại học Sài Gòn."
+
+msgid "plugins.themes.sgu-theme.about.section.2.english"
+msgstr "English name: Scientific Journal of Saigon University."
+
+msgid "plugins.themes.sgu-theme.about.section.2.abbreviation"
+msgstr "Abbreviation: SJSGU."
+
+msgid "plugins.themes.sgu-theme.about.section.2.address"
+msgstr "Address: 273 An Duong Vuong, Ward 3, District 5, Ho Chi Minh City."
+
+msgid "plugins.themes.sgu-theme.about.section.2.contact"
+msgstr "Phone: 08.38321360; Email: <a href=\"mailto:tcdhsg@sgu.edu.vn\">tcdhsg@sgu.edu.vn</a>"
+
+msgid "plugins.themes.sgu-theme.about.section.2.seal"
+msgstr "The Scientific Journal of Saigon University has its own seal."
+
+msgid "plugins.themes.sgu-theme.about.section.3.title"
+msgstr "3. Purpose and Mission"
+
+msgid "plugins.themes.sgu-theme.about.section.3.paragraph.1"
+msgstr "The Scientific Journal of Saigon University is a scientific forum publishing research results and scientific activities of staff, lecturers, and students of Saigon University, connecting the university's scientific research with practical production, innovation, and national development."
+
+msgid "plugins.themes.sgu-theme.about.section.3.paragraph.2"
+msgstr "The Scientific Journal of Saigon University will be a forum for exchanging thoughts, viewpoints, and research orientations across disciplines between scientists, managers, scholars, and educators at colleges, universities, institutes, academies, and research centers both domestically and internationally; contributing to gradually perfecting and enhancing the training and scientific research functions of Saigon University."
+
+msgid "plugins.themes.sgu-theme.about.section.3.paragraph.3"
+msgstr "The Scientific Journal of Saigon University is an important bridge between Saigon University and educational institutions in the national education system, with companies, enterprises, units, and production facilities in the relationship between training and usage, between research and practical economic-social life of the city, region, and country."
+
+msgid "plugins.themes.sgu-theme.about.section.4.title"
+msgstr "4. Content Structure"
+
+msgid "plugins.themes.sgu-theme.about.section.4.topics.title"
+msgstr "Topic Structure:"
+
+msgid "plugins.themes.sgu-theme.about.section.4.topics.natural"
+msgstr "Natural Sciences & Technology"
+
+msgid "plugins.themes.sgu-theme.about.section.4.topics.social"
+msgstr "Social Sciences & Humanities"
+
+msgid "plugins.themes.sgu-theme.about.section.4.topics.education"
+msgstr "Educational Sciences"
+
+msgid "plugins.themes.sgu-theme.about.section.4.topics.others"
+msgstr "Other Topics"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.title"
+msgstr "Content Structure of Each Issue:"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.cover1"
+msgstr "Cover 1: According to template (attached)"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.cover2"
+msgstr "Cover 2: Editorial Board and Editorial Office Introduction (according to attached template)"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.cover3"
+msgstr "Cover 3: Submission Guidelines"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.cover4"
+msgstr "Cover 4: According to template (attached)"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.contents"
+msgstr "Pages 1 and 2: English + Vietnamese Contents"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.articles"
+msgstr "Articles"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.news"
+msgstr "Last page: News"
+
+msgid "plugins.themes.sgu-theme.about.section.4.article.title"
+msgstr "Article Content Structure:"
+
+msgid "plugins.themes.sgu-theme.about.section.4.article.requirement"
+msgstr "Scientific articles must be comprehensive, research-based, with new contributions and scientific impact, written according to the Journal's guidelines."
+
+msgid "plugins.themes.sgu-theme.about.section.4.article.abstract"
+msgstr "Abstract and keywords in Vietnamese and English."
+
+msgid "plugins.themes.sgu-theme.about.section.4.article.structure"
+msgstr "Sections must be tightly structured and logical."
+
+msgid "plugins.themes.sgu-theme.about.section.4.article.references"
+msgstr "References must be presented according to the standards mentioned in the submission guidelines."
+
+msgid "plugins.themes.sgu-theme.about.section.5.title"
+msgstr "5. Format"
+
+msgid "plugins.themes.sgu-theme.about.section.5.publishing"
+msgstr "Publishing period: Monthly (excluding special issues)"
+
+msgid "plugins.themes.sgu-theme.about.section.5.format"
+msgstr "Format: 19 x 27 cm"
+
+msgid "plugins.themes.sgu-theme.about.section.5.pages"
+msgstr "Pages per issue: 120 - 130 pages"
+
+msgid "plugins.themes.sgu-theme.about.section.5.copies"
+msgstr "Print run per issue: 1,000 copies"
+
+msgid "plugins.themes.sgu-theme.about.section.5.printing"
+msgstr "Printing location: Printers nationwide"
+
+msgid "plugins.themes.sgu-theme.about.section.5.distribution"
+msgstr "Distribution scope: Domestic and international"
+
+msgid "plugins.themes.sgu-theme.about.section.5.method"
+msgstr "Distribution method: Complimentary and self-distribution"
+
+msgid "plugins.themes.sgu-theme.about.section.5.price"
+msgstr "Retail price: According to current rates"
+
+msgid "plugins.themes.sgu-theme.about.section.6.title"
+msgstr "6. Target Audience"
+
+msgid "plugins.themes.sgu-theme.about.section.6.readers.1"
+msgstr "Scientists and readers both domestic and international."
+
+msgid "plugins.themes.sgu-theme.about.section.6.readers.2"
+msgstr "Staff, lecturers, students, and graduate students of Saigon University."
+
+msgid "plugins.themes.sgu-theme.about.section.6.readers.3"
+msgstr "Colleges, universities, institutes, academies, and research centers nationwide."
+
+msgid "plugins.themes.sgu-theme.about.section.6.readers.4"
+msgstr "Educational institutions nationwide (Departments of Education & Training, Education Offices, schools, and continuing education centers)."
+
+msgid "plugins.themes.sgu-theme.about.section.6.readers.5"
+msgstr "Companies, enterprises, units, and production facilities with needs."

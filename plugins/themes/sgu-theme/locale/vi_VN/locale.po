@@ -216,3 +216,165 @@ msgstr "Giấy phép hoạt động tạp chí in và tạp chí điện tử s�
 
 msgid "plugins.themes.sgu-theme.footer.issuedByTitle"
 msgstr "Do bộ Thông Tin và Truyền Thông cấp ngày:"
+
+msgid "plugins.themes.sgu-theme.about.journal.alt"
+msgstr "Tạp chí Khoa học Đại học Sài Gòn"
+
+msgid "plugins.themes.sgu-theme.about.journal.title"
+msgstr "TẠP CHÍ KHOA HỌC ĐẠI HỌC SÀI GÒN"
+
+msgid "plugins.themes.sgu-theme.about.journal.subtitle"
+msgstr "Scientific Journal of Saigon University"
+
+msgid "plugins.themes.sgu-theme.about.journal.issn"
+msgstr "ISSN 1859 - 3208"
+
+msgid "plugins.themes.sgu-theme.about.journal.license"
+msgstr "Số: 1945/QĐ-ĐHSG-TTTT&PTGD"
+
+msgid "plugins.themes.sgu-theme.about.journal.admin"
+msgstr "<strong>UBND TP.HCM</strong> - <strong>Trường Đại học Sài Gòn</strong><br><strong>Cộng hòa Xã hội Chủ nghĩa Việt Nam</strong> - Độc lập, Tự do, Hạnh phúc"
+
+msgid "plugins.themes.sgu-theme.about.section.1.title"
+msgstr "1. Giới thiệu chung"
+
+msgid "plugins.themes.sgu-theme.about.section.1.paragraph.1"
+msgstr "Tạp chí Khoa học Đại học Sài Gòn nằm trong hệ thống báo chí chính thống của nước Cộng hòa Xã hội Chủ nghĩa Việt Nam, có tiếng nói khoa học ngang tầm với các Tạp chí khoa học ngành giáo dục và Tạp chí các lĩnh vực khác."
+
+msgid "plugins.themes.sgu-theme.about.section.1.paragraph.2"
+msgstr "Tạp chí Khoa học Đại học Sài Gòn có chỉ số Quốc tế ISSN 1859 – 3208, khẳng định Tạp chí đạt tiêu chuẩn Quốc tế về lĩnh vực khoa học. Giáo sư, Phó Giáo sư, Tiến sĩ, Nghiên cứu sinh, Thạc sĩ, Học viên cao học, giảng viên, sinh viên có công trình nghiên cứu khoa học theo đúng nội dung định hướng của Tạp chí, được đăng trên Tạp chí sẽ được tính điểm nghiên cứu khoa học theo quy định."
+
+msgid "plugins.themes.sgu-theme.about.section.2.title"
+msgstr "2. Tên gọi Tạp chí"
+
+msgid "plugins.themes.sgu-theme.about.section.2.vietnamese"
+msgstr "Tên tiếng Việt: Tạp chí Khoa học Đại học Sài Gòn."
+
+msgid "plugins.themes.sgu-theme.about.section.2.english"
+msgstr "Tên tiếng Anh: Scientific Journal of Saigon University."
+
+msgid "plugins.themes.sgu-theme.about.section.2.abbreviation"
+msgstr "Tên viết tắt: SJSGU."
+
+msgid "plugins.themes.sgu-theme.about.section.2.address"
+msgstr "Trụ sở: 273 An Dương Vương, Phường 3, Quận 5, Thành phố Hồ Chí Minh."
+
+msgid "plugins.themes.sgu-theme.about.section.2.contact"
+msgstr "ĐT: 08.38321360; Email: <a href=\"mailto:tcdhsg@sgu.edu.vn\">tcdhsg@sgu.edu.vn</a>"
+
+msgid "plugins.themes.sgu-theme.about.section.2.seal"
+msgstr "Tạp chí Khoa học Đại học Sài Gòn có con dấu riêng."
+
+msgid "plugins.themes.sgu-theme.about.section.3.title"
+msgstr "3. Tôn chỉ, mục đích"
+
+msgid "plugins.themes.sgu-theme.about.section.3.paragraph.1"
+msgstr "Tạp chí Khoa học Đại học Sài Gòn là diễn đàn khoa học công bố các kết quả nghiên cứu và hoạt động khoa học của cán bộ, giảng viên, sinh viên Trường Đại học Sài Gòn, gắn nghiên cứu khoa học của nhà trường với thực tiễn sản xuất, đổi mới và phát triển của đất nước."
+
+msgid "plugins.themes.sgu-theme.about.section.3.paragraph.2"
+msgstr "Tạp chí Khoa học Đại học Sài Gòn sẽ là diễn đàn trao đổi tư duy, quan điểm, định hướng nghiên cứu khoa học đa ngành giữa các nhà khoa học, các nhà quản lý, các học giả, các nhà giáo ở các trường cao đẳng, đại học, các viện, các học viện, các trung tâm nghiên cứu trong và ngoài nước; góp phần từng bước hoàn thiện và nâng cao chức năng, nhiệm vụ đào tạo và nghiên cứu khoa học của Trường Đại học Sài Gòn."
+
+msgid "plugins.themes.sgu-theme.about.section.3.paragraph.3"
+msgstr "Tạp chí Khoa học Đại học Sài Gòn là cầu nối quan trọng giữa Trường Đại học Sài Gòn với các cơ sở giáo dục trong hệ thống giáo dục quốc dân, với các công ty, doanh nghiệp, các đơn vị, cơ sở sản xuất trong mối liên hệ giữa đào tạo và sử dụng, giữa nghiên cứu với thực tiễn đời sống kinh tế – xã hội của thành phố, khu vực và cả nước."
+
+msgid "plugins.themes.sgu-theme.about.section.4.title"
+msgstr "4. Nội dung thể hiện"
+
+msgid "plugins.themes.sgu-theme.about.section.4.topics.title"
+msgstr "Kết cấu các chuyên đề:"
+
+msgid "plugins.themes.sgu-theme.about.section.4.topics.natural"
+msgstr "Khoa học Tự nhiên & Công nghệ"
+
+msgid "plugins.themes.sgu-theme.about.section.4.topics.social"
+msgstr "Khoa học Xã hội & Nhân văn"
+
+msgid "plugins.themes.sgu-theme.about.section.4.topics.education"
+msgstr "Khoa học Giáo dục"
+
+msgid "plugins.themes.sgu-theme.about.section.4.topics.others"
+msgstr "Các chuyên đề khác"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.title"
+msgstr "Kết cấu hình thức nội dung từng số:"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.cover1"
+msgstr "Bìa 1: Theo mẫu (đính kèm)"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.cover2"
+msgstr "Bìa 2: Hội đồng Biên tập và Giới thiệu Tòa soạn (theo mẫu đính kèm)"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.cover3"
+msgstr "Bìa 3: Thể lệ gửi bài"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.cover4"
+msgstr "Bìa 4: Theo mẫu (đính kèm)"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.contents"
+msgstr "Trang 1 và 2: Mục lục tiếng Anh + tiếng Việt"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.articles"
+msgstr "Các bài viết"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.news"
+msgstr "Trang cuối: Tin tức"
+
+msgid "plugins.themes.sgu-theme.about.section.4.article.title"
+msgstr "Kết cấu nội dung từng bài:"
+
+msgid "plugins.themes.sgu-theme.about.section.4.article.requirement"
+msgstr "Bài báo khoa học phải có tính tổng hợp, nghiên cứu, có đóng góp mới và có tầm ảnh hưởng khoa học, viết đúng theo thể lệ của Tạp chí."
+
+msgid "plugins.themes.sgu-theme.about.section.4.article.abstract"
+msgstr "Tóm tắt và từ khóa bằng tiếng Việt và tiếng Anh."
+
+msgid "plugins.themes.sgu-theme.about.section.4.article.structure"
+msgstr "Các phần bố cục chặt chẽ, logic."
+
+msgid "plugins.themes.sgu-theme.about.section.4.article.references"
+msgstr "Tài liệu tham khảo phải được trình bày đúng qui chuẩn đã được đề cập trong thể lệ gửi bài đăng trên Tạp chí."
+
+msgid "plugins.themes.sgu-theme.about.section.5.title"
+msgstr "5. Hình thức thể hiện"
+
+msgid "plugins.themes.sgu-theme.about.section.5.publishing"
+msgstr "Kì hạn xuất bản: Mỗi tháng 1 số (chưa bao gồm các số chuyên đề)"
+
+msgid "plugins.themes.sgu-theme.about.section.5.format"
+msgstr "Khuôn khổ: 19 x 27 cm"
+
+msgid "plugins.themes.sgu-theme.about.section.5.pages"
+msgstr "Số trang in mỗi số: 120 – 130 trang"
+
+msgid "plugins.themes.sgu-theme.about.section.5.copies"
+msgstr "Số lượng xuất bản mỗi kì: 1.000 cuốn"
+
+msgid "plugins.themes.sgu-theme.about.section.5.printing"
+msgstr "Địa điểm in: Các nhà in trong toàn quốc"
+
+msgid "plugins.themes.sgu-theme.about.section.5.distribution"
+msgstr "Phạm vi phát hành: Trong nước và quốc tế"
+
+msgid "plugins.themes.sgu-theme.about.section.5.method"
+msgstr "Phương thức phát hành: Biếu tặng và tự phát hành"
+
+msgid "plugins.themes.sgu-theme.about.section.5.price"
+msgstr "Giá bán lẻ: Theo thời điểm"
+
+msgid "plugins.themes.sgu-theme.about.section.6.title"
+msgstr "6. Đối tượng phục vụ"
+
+msgid "plugins.themes.sgu-theme.about.section.6.readers.1"
+msgstr "Các nhà khoa học, các độc giả trong và ngoài nước."
+
+msgid "plugins.themes.sgu-theme.about.section.6.readers.2"
+msgstr "Cán bộ, giảng viên, học viên và sinh viên Trường Đại học Sài Gòn."
+
+msgid "plugins.themes.sgu-theme.about.section.6.readers.3"
+msgstr "Các trường cao đẳng, đại học, các viện, các học viện, các trung tâm nghiên cứu trong cả nước."
+
+msgid "plugins.themes.sgu-theme.about.section.6.readers.4"
+msgstr "Các cơ sở giáo dục trong cả nước (Sở Giáo dục & Đào tạo, Phòng Giáo dục, trường phổ thông và trung tâm Giáo dục thường xuyên)."
+
+msgid "plugins.themes.sgu-theme.about.section.6.readers.5"
+msgstr "Các công ty, doanh nghiệp, đơn vị, cơ sở sản xuất có nhu cầu."
