@@ -19,8 +19,11 @@
 	</h1>
 	{include file="frontend/components/editLink.tpl" page="management" op="settings" path="context" anchor="masthead" sectionTitleKey="about.aboutContext"}
 
-	{* {$currentContext->getLocalizedData('about')} *}
-	{include file="frontend/components/about-content.tpl"}
+	{if $currentContext->getLocalizedData('about')}
+		{$currentContext->getLocalizedData('about')}
+	{else}
+		{include file="frontend/components/about-content.tpl"}
+	{/if}
 </div><!-- .page -->
 
 {include file="frontend/components/footer.tpl"}
