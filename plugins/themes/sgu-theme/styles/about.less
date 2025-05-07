@@ -1,0 +1,152 @@
+/**
+ * @file plugins/themes/sgu-theme/styles/about.less
+ *
+ * Copyright (c) 2014-2023 Simon Fraser University
+ * Copyright (c) 2003-2023 John Willinsky
+ * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+ *
+ * @brief Styles for the about page
+ */
+
+/* About page styles */
+.page_about {
+    padding: 2rem 1rem;
+    background-color: #f5f7fa;
+}
+
+/* Journal About Content Styles */
+.about-journal-main {
+    max-width: 1100px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 32px rgba(80, 112, 255, 0.07), 0 1.5px 6px rgba(0, 0, 0, 0.04);
+    padding: 32px 24px 40px 24px;
+}
+
+.about-journal-flex {
+    display: flex;
+    gap: 36px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.about-journal-img {
+    flex: 0 0 220px;
+    max-width: 220px;
+    text-align: center;
+}
+
+.about-journal-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(80, 112, 255, 0.10);
+}
+
+.about-journal-header {
+    flex: 1 1 350px;
+    min-width: 260px;
+}
+
+.about-journal-title {
+    font-size: 2.1rem;
+    font-weight: 800;
+    color: #0a1a5e;
+    margin: 0 0 8px 0;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.about-journal-subtitle {
+    font-size: 1.15rem;
+    color: #6366f1;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.about-journal-admin {
+    font-size: 1rem;
+    color: #374151;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.about-journal-admin strong {
+    color: #0a1a5e;
+}
+
+.about-journal-table {
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.about-journal-table td {
+    padding: 2px 8px;
+    font-size: 1rem;
+    color: #374151;
+}
+
+.about-journal-table .left {
+    text-align: left;
+    font-weight: 600;
+}
+
+.about-journal-table .right {
+    text-align: right;
+    font-style: italic;
+}
+
+.about-journal-content {
+    margin-top: 24px;
+}
+
+.about-journal-content h3 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #3b3b99;
+    margin-bottom: 10px;
+    margin-top: 24px;
+}
+
+.about-journal-content p,
+.about-journal-content ul {
+    font-size: 1.05rem;
+    color: #374151;
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
+
+.about-journal-content ul {
+    margin-left: 24px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+    .about-journal-flex {
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .about-journal-img {
+        max-width: 60vw;
+        margin: 0 auto;
+    }
+
+    .about-journal-header {
+        text-align: center;
+    }
+
+    .about-journal-title,
+    .about-journal-subtitle,
+    .about-journal-admin {
+        text-align: center !important;
+    }
+}
+
+/* Hide default page title since we have our own in the custom content */
+.page_about>h1 {
+    display: none;
+}
