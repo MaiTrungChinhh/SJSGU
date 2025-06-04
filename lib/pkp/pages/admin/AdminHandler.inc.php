@@ -17,7 +17,8 @@ import('classes.handler.Handler');
 
 use Illuminate\Database\Capsule\Manager as Capsule;
 
-class AdminHandler extends Handler {
+class AdminHandler extends Handler
+{
 
 	/** @copydoc PKPHandler::_isBackendPage */
 	var $_isBackendPage = true;
@@ -25,7 +26,8 @@ class AdminHandler extends Handler {
 	/**
 	 * Constructor
 	 */
-	function __construct() {
+	function __construct()
+	{
 		parent::__construct();
 
 		$this->addRoleAssignment(
@@ -49,7 +51,8 @@ class AdminHandler extends Handler {
 	/**
 	 * @copydoc PKPHandler::authorize()
 	 */
-	function authorize($request, &$args, $roleAssignments) {
+	function authorize($request, &$args, $roleAssignments)
+	{
 		import('lib.pkp.classes.security.authorization.PKPSiteAccessPolicy');
 		$this->addPolicy(new PKPSiteAccessPolicy($request, null, $roleAssignments));
 		$returner = parent::authorize($request, $args, $roleAssignments);
@@ -65,7 +68,8 @@ class AdminHandler extends Handler {
 	/**
 	 * @copydoc PKPHandler::initialize()
 	 */
-	function initialize($request) {
+	function initialize($request)
+	{
 		AppLocale::requireComponents(
 			LOCALE_COMPONENT_PKP_ADMIN,
 			LOCALE_COMPONENT_APP_MANAGER,
@@ -115,7 +119,8 @@ class AdminHandler extends Handler {
 	 * @param $args array
 	 * @param $request PKPRequest
 	 */
-	function index($args, $request) {
+	function index($args, $request)
+	{
 		$this->setupTemplate($request);
 		$templateMgr = TemplateManager::getManager($request);
 		$templateMgr->assign([
@@ -129,10 +134,11 @@ class AdminHandler extends Handler {
 	 * @param $args array
 	 * @param $request PKPRequest
 	 */
-	function contexts($args, $request) {
+	function contexts($args, $request)
+	{
 		$this->setupTemplate($request);
 		$templateMgr = TemplateManager::getManager($request);
-		$breadcrumbs = $templateMgr->get_template_vars('breadcrumbs');
+		$breadcrumbs = $templateMgr->getTemplateVars('breadcrumbs');
 		$breadcrumbs[] = [
 			'id' => 'contexts',
 			'name' => __('admin.hostedContexts'),
@@ -149,7 +155,8 @@ class AdminHandler extends Handler {
 	 * @param $args array
 	 * @param $request PKPRequest
 	 */
-	function settings($args, $request) {
+	function settings($args, $request)
+	{
 		$this->setupTemplate($request);
 		$site = $request->getSite();
 		$dispatcher = $request->getDispatcher();
@@ -164,7 +171,7 @@ class AdminHandler extends Handler {
 
 		$supportedLocales = $site->getSupportedLocales();
 		$localeNames = AppLocale::getAllLocales();
-		$locales = array_map(function($localeKey) use ($localeNames) {
+		$locales = array_map(function ($localeKey) use ($localeNames) {
 			return ['key' => $localeKey, 'label' => $localeNames[$localeKey]];
 		}, $supportedLocales);
 
@@ -188,7 +195,7 @@ class AdminHandler extends Handler {
 			],
 		]);
 
-		$breadcrumbs = $templateMgr->get_template_vars('breadcrumbs');
+		$breadcrumbs = $templateMgr->getTemplateVars('breadcrumbs');
 		$breadcrumbs[] = [
 			'id' => 'settings',
 			'name' => __('admin.siteSettings'),
@@ -208,7 +215,8 @@ class AdminHandler extends Handler {
 	 * @param $request PKPRequest
 	 * @return array [siteComponent, availability (bool)]
 	 */
-	private function siteSettingsAvailability($request) {
+	private function siteSettingsAvailability($request)
+	{
 		$tabsSingleContextAvailability = [
 			'siteSetup',
 			'languages',
@@ -248,7 +256,8 @@ class AdminHandler extends Handler {
 	 * @param $args array
 	 * @param $request PKPRequest
 	 */
-	public function wizard($args, $request) {
+	public function wizard($args, $request)
+	{
 		$this->setupTemplate($request);
 		$router = $request->getRouter();
 		$dispatcher = $request->getDispatcher();
@@ -271,7 +280,7 @@ class AdminHandler extends Handler {
 
 		$supportedFormLocales = $context->getSupportedFormLocales();
 		$localeNames = AppLocale::getAllLocales();
-		$locales = array_map(function($localeKey) use ($localeNames) {
+		$locales = array_map(function ($localeKey) use ($localeNames) {
 			return ['key' => $localeKey, 'label' => $localeNames[$localeKey]];
 		}, $supportedFormLocales);
 
@@ -298,7 +307,7 @@ class AdminHandler extends Handler {
 			'components' => $components,
 		]);
 
-		$breadcrumbs = $templateMgr->get_template_vars('breadcrumbs');
+		$breadcrumbs = $templateMgr->getTemplateVars('breadcrumbs');
 		$breadcrumbs[] = [
 			'id' => 'contexts',
 			'name' => __('admin.hostedContexts'),
@@ -324,7 +333,8 @@ class AdminHandler extends Handler {
 	 * @param $args array
 	 * @param $request PKPRequest
 	 */
-	function systemInfo($args, $request) {
+	function systemInfo($args, $request)
+	{
 		$this->setupTemplate($request, true);
 
 		$versionDao = DAORegistry::getDAO('VersionDAO'); /* @var $versionDao VersionDAO */
@@ -333,7 +343,8 @@ class AdminHandler extends Handler {
 		if ($request->getUserVar('versionCheck')) {
 			$latestVersionInfo = VersionCheck::getLatestVersion();
 			$latestVersionInfo['patch'] = VersionCheck::getPatch($latestVersionInfo);
-		} else $latestVersionInfo = null;
+		} else
+			$latestVersionInfo = null;
 
 		$versionDao = DAORegistry::getDAO('VersionDAO'); /* @var $versionDao VersionDAO */
 		$versionHistory = $versionDao->getVersionHistory();
@@ -349,7 +360,7 @@ class AdminHandler extends Handler {
 
 		$templateMgr = TemplateManager::getManager($request);
 
-		$breadcrumbs = $templateMgr->get_template_vars('breadcrumbs');
+		$breadcrumbs = $templateMgr->getTemplateVars('breadcrumbs');
 		$breadcrumbs[] = [
 			'id' => 'wizard',
 			'name' => __('admin.systemInformation'),
@@ -371,7 +382,8 @@ class AdminHandler extends Handler {
 	/**
 	 * Show full PHP configuration information.
 	 */
-	function phpinfo() {
+	function phpinfo()
+	{
 		phpinfo();
 	}
 
@@ -380,8 +392,10 @@ class AdminHandler extends Handler {
 	 * @param $args array
 	 * @param $request PKPRequest
 	 */
-	function expireSessions($args, $request) {
-		if (!$request->checkCSRF()) return new JSONMessage(false);
+	function expireSessions($args, $request)
+	{
+		if (!$request->checkCSRF())
+			return new JSONMessage(false);
 
 		$sessionDao = DAORegistry::getDAO('SessionDAO'); /* @var $sessionDao SessionDAO */
 		$sessionDao->deleteAllSessions();
@@ -393,8 +407,10 @@ class AdminHandler extends Handler {
 	 * @param $args array
 	 * @param $request PKPRequest
 	 */
-	function clearTemplateCache($args, $request) {
-		if (!$request->checkCSRF()) return new JSONMessage(false);
+	function clearTemplateCache($args, $request)
+	{
+		if (!$request->checkCSRF())
+			return new JSONMessage(false);
 
 		$templateMgr = TemplateManager::getManager($request);
 		$templateMgr->clearTemplateCache();
@@ -407,8 +423,10 @@ class AdminHandler extends Handler {
 	 * @param $args array
 	 * @param $request PKPRequest
 	 */
-	function clearDataCache($args, $request) {
-		if (!$request->checkCSRF()) return new JSONMessage(false);
+	function clearDataCache($args, $request)
+	{
+		if (!$request->checkCSRF())
+			return new JSONMessage(false);
 
 		// Clear the CacheManager's caches
 		$cacheManager = CacheManager::getManager();
@@ -424,7 +442,8 @@ class AdminHandler extends Handler {
 	/**
 	 * Download scheduled task execution log file.
 	 */
-	function downloadScheduledTaskLogFile($args, $request) {
+	function downloadScheduledTaskLogFile($args, $request)
+	{
 		$file = basename($request->getUserVar('file'));
 		import('lib.pkp.classes.scheduledTask.ScheduledTaskHelper');
 		ScheduledTaskHelper::downloadExecutionLog($file);
@@ -433,8 +452,10 @@ class AdminHandler extends Handler {
 	/**
 	 * Clear scheduled tasks execution logs.
 	 */
-	function clearScheduledTaskLogFiles($args, $request) {
-		if (!$request->checkCSRF()) return new JSONMessage(false);
+	function clearScheduledTaskLogFiles($args, $request)
+	{
+		if (!$request->checkCSRF())
+			return new JSONMessage(false);
 
 		import('lib.pkp.classes.scheduledTask.ScheduledTaskHelper');
 		ScheduledTaskHelper::clearExecutionLogs();

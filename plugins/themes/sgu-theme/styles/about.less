@@ -19,8 +19,7 @@
     max-width: 1100px;
     margin: 40px auto;
     background: #fff;
-    border-radius: 20px;
-    box-shadow: 0 4px 32px rgba(80, 112, 255, 0.07), 0 1.5px 6px rgba(0, 0, 0, 0.04);
+    border: 1px solid #e5e7eb;
     padding: 32px 24px 40px 24px;
 }
 
@@ -40,8 +39,7 @@
 .about-journal-img img {
     width: 100%;
     height: auto;
-    border-radius: 12px;
-    box-shadow: 0 2px 12px rgba(80, 112, 255, 0.10);
+    border: 1px solid #e5e7eb;
 }
 
 .about-journal-header {
@@ -81,17 +79,21 @@
 .about-journal-table {
     width: 100%;
     margin-bottom: 18px;
+    border: 1px solid #e5e7eb;
+    border-collapse: collapse;
 }
 
 .about-journal-table td {
-    padding: 2px 8px;
+    padding: 8px 12px;
     font-size: 1rem;
     color: #374151;
+    border: 1px solid #e5e7eb;
 }
 
 .about-journal-table .left {
     text-align: left;
     font-weight: 600;
+    background-color: #f9fafb;
 }
 
 .about-journal-table .right {
@@ -101,6 +103,8 @@
 
 .about-journal-content {
     margin-top: 24px;
+    border-top: 1px solid #e5e7eb;
+    padding-top: 24px;
 }
 
 .about-journal-content h3 {
@@ -109,6 +113,8 @@
     color: #3b3b99;
     margin-bottom: 10px;
     margin-top: 24px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e5e7eb;
 }
 
 .about-journal-content p,
@@ -121,6 +127,19 @@
 
 .about-journal-content ul {
     margin-left: 24px;
+}
+
+.about-journal-content ul li {
+    margin-bottom: 5px;
+}
+
+.about-journal-content a {
+    color: #6366f1;
+    text-decoration: none;
+}
+
+.about-journal-content a:hover {
+    text-decoration: underline;
 }
 
 /* Responsive adjustments */
@@ -143,6 +162,31 @@
     .about-journal-subtitle,
     .about-journal-admin {
         text-align: center !important;
+    }
+
+    .about-journal-table .left,
+    .about-journal-table .right {
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .about-journal-main {
+        margin: 20px auto;
+        padding: 20px 16px;
+    }
+
+    .about-journal-title {
+        font-size: 1.8rem;
+    }
+
+    .about-journal-subtitle {
+        font-size: 1rem;
+    }
+
+    .about-journal-table td {
+        padding: 6px 8px;
+        font-size: 0.9rem;
     }
 }
 
