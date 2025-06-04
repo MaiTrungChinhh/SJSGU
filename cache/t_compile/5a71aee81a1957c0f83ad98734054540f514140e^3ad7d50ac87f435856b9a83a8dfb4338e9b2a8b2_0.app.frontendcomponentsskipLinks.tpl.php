@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2025-02-24 06:12:33
+/* Smarty version 4.3.1, created on 2025-06-04 19:29:22
   from 'app:frontendcomponentsskipLinks.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_67bc0dd156e0b1_16514533',
+  'unifunc' => 'content_68408272c6cd98_29041729',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3ad7d50ac87f435856b9a83a8dfb4338e9b2a8b2' => 
     array (
       0 => 'app:frontendcomponentsskipLinks.tpl',
-      1 => 1732910648,
+      1 => 1749057649,
       2 => 'app',
     ),
   ),
@@ -20,8 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67bc0dd156e0b1_16514533 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\laragon\\www\\SJSGU\\lib\\pkp\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.count.php','function'=>'smarty_modifier_count',),));
+function content_68408272c6cd98_29041729 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\SJSGU\\lib\\pkp\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.count.php','function'=>'smarty_modifier_count',),));
 ?>
 
  <nav class="cmp_skip_to_content" aria-label="<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['translate'][0], array( array('key'=>"navigation.skip.description"),$_smarty_tpl ) );?>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2025-02-24 06:12:44
+/* Smarty version 4.3.1, created on 2025-06-04 19:30:28
   from 'app:admineditContext.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_67bc0ddc0737e2_46505043',
+  'unifunc' => 'content_684082b4ab4fd6_43528383',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '664748597680cd06723689c4a9fa96f696281a87' => 
     array (
       0 => 'app:admineditContext.tpl',
-      1 => 1732910728,
+      1 => 1749057646,
       2 => 'app',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67bc0ddc0737e2_46505043 (Smarty_Internal_Template $_smarty_tpl) {
+function content_684082b4ab4fd6_43528383 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="editContext">
 	<?php if ($_smarty_tpl->tpl_vars['isAddingNewContext']->value) {?>
 	<add-context-form

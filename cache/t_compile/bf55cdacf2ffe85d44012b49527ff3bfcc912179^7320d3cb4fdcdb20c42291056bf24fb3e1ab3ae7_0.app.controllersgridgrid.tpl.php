@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2025-02-24 06:12:38
+/* Smarty version 4.3.1, created on 2025-06-04 19:30:20
   from 'app:controllersgridgrid.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_67bc0dd68c32f8_01761135',
+  'unifunc' => 'content_684082acd35d97_83894644',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7320d3cb4fdcdb20c42291056bf24fb3e1ab3ae7' => 
     array (
       0 => 'app:controllersgridgrid.tpl',
-      1 => 1732910728,
+      1 => 1749057646,
       2 => 'app',
     ),
   ),
@@ -25,7 +25,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:controllers/grid/gridActionsBelow.tpl' => 1,
   ),
 ),false)) {
-function content_67bc0dd68c32f8_01761135 (Smarty_Internal_Template $_smarty_tpl) {
+function content_684082acd35d97_83894644 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('staticId', call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'concat' ][ 0 ], array( "component-",$_smarty_tpl->tpl_vars['grid']->value->getId() )));
 $_smarty_tpl->_assignInScope('gridId', call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'uniqid' ][ 0 ], array( call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'concat' ][ 0 ], array( $_smarty_tpl->tpl_vars['staticId']->value,'-' )) )));
 $_smarty_tpl->_assignInScope('gridTableId', call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'concat' ][ 0 ], array( $_smarty_tpl->tpl_vars['gridId']->value,"-table" )));

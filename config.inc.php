@@ -1,4 +1,5 @@
-; <?php exit(); // DO NOT DELETE ?>
+; <?php exit(); // DO NOT DELETE 
+    ?>
 ; DO NOT DELETE THE ABOVE LINE!!!
 ; Doing so will expose this configuration file through your web site!
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -61,7 +62,8 @@ scheduled_tasks_report_error_only = On
 ; Please refer to lib/pkp/registry/timeZones.xml for a full list of supported
 ; time zones.
 ; I.e.:
-; <entry key="Europe/Amsterdam" name="Amsterdam" />
+;
+<entry key="Europe/Amsterdam" name="Amsterdam" />
 ; time_zone="Amsterdam"
 time_zone = "UTC"
 
@@ -175,7 +177,7 @@ memcache_port = 11211
 ; specified in the web_cache_hours option. This will cut down on server
 ; overhead for many requests, but should be used with caution because:
 ; 1) Things like journal metadata changes will not be reflected in cached
-;    data until the cache expires or is cleared, and
+; data until the cache expires or is cleared, and
 ; 2) This caching WILL NOT RESPECT DOMAIN-BASED SUBSCRIPTIONS.
 ; However, for situations like hosting high-volume open access journals, it's
 ; an easy way of decreasing server load.
@@ -212,7 +214,7 @@ connection_charset = utf8
 ; Complete path to directory to store uploaded files
 ; (This directory should not be directly web-accessible)
 ; Windows users should use forward slashes
-files_dir = "C:/laragon/www/uploads"
+files_dir = "C:/xampp/htdocs/uploads"
 
 ; Path to the directory to store public uploaded files
 ; (This directory should be web-accessible and the specified path
