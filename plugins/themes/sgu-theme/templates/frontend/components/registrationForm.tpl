@@ -126,8 +126,8 @@
                         {translate key="common.required"}
                     </span>
                 </span>
-                <input type="password" name="repeat-password" id="repeat-password" password="true" maxlength="32"
-                    required aria-required="true">
+                <input type="password" name="password2" id="password2" password="true" maxlength="32" required
+                    aria-required="true">
             </label>
         </div>
     </div>
