@@ -378,3 +378,21 @@ msgstr "Educational institutions nationwide (Departments of Education & Training
 
 msgid "plugins.themes.sgu-theme.about.section.6.readers.5"
 msgstr "Companies, enterprises, units, and production facilities with needs."
+
+msgid "stats.name.submissionsSkipped"
+msgstr "The number of submissions skipped in the system."
+
+msgid "stats.name.submissionsInProgress"
+msgstr "The number of submissions currently in progress in the system."
+
+msgid "stats.name.submissionsImported"
+msgstr "The number of submissions imported into the system."
+
+msgid "about.onlineSubmissions.submissionActions.description"
+msgstr "Describes the actions available for authors during the submission process, including uploading files, providing metadata, and managing their submissions."
+
+msgid "publication.assignedToIssue"
+msgstr "Publication has been assigned to an issue"
+
+msgid "publication.changeIssue"
+msgstr "Change the issue of the publication"

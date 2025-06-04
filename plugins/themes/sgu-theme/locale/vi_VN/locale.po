@@ -378,3 +378,21 @@ msgstr "Các cơ sở giáo dục trong cả nước (Sở Giáo dục & Đào t
 
 msgid "plugins.themes.sgu-theme.about.section.6.readers.5"
 msgstr "Các công ty, doanh nghiệp, đơn vị, cơ sở sản xuất có nhu cầu."
+
+msgid "stats.name.submissionsSkipped"
+msgstr "Số lượng bài nộp đã bị bỏ qua trong hệ thống."
+
+msgid "stats.name.submissionsInProgress"
+msgstr "Số lượng bài nộp hiện đang được xử lý trong hệ thống."
+
+msgid "stats.name.submissionsImported"
+msgstr "Số lượng bài nộp đã được nhập vào hệ thống."
+
+msgid "about.onlineSubmissions.submissionActions.description"
+msgstr "Mô tả các hành động có sẵn cho tác giả trong quá trình nộp bài, bao gồm tải tệp lên, cung cấp siêu dữ liệu và quản lý bài gửi của họ."
+
+msgid "publication.assignedToIssue"
+msgstr "Chuỗi đã được gán vào số báo"
+
+msgid "publication.changeIssue"
+msgstr "Thay đổi số báo"

@@ -54,6 +54,9 @@ msgstr ""
 "người dùng hiện đang đăng nhập vào hệ thống sẽ buộc phải đăng nhập lại (bao "
 "gồm cả bạn)."
 
+msgid "admin.confirmExpireSessionsTitle"
+msgstr "Xác nhận"
+
 msgid "admin.contentsOfConfigFile"
 msgstr "Nội dung của tệp cấu hình"
 

@@ -34,7 +34,8 @@
 			<li>
 				<form type="post" action="{url op="expireSessions"}">
 					{csrf}
-					<button class="-linkButton" onclick="return confirm({translate|json_encode|escape key="admin.confirmExpireSessions"})">{translate key="admin.expireSessions"}</button>
+					<button type="button"
+						class="-linkButton expireSessionsBtn">{translate key="admin.expireSessions"}</button>
 				</form>
 			</li>
 			<li>
@@ -46,16 +47,43 @@
 			<li>
 				<form type="post" action="{url op="clearTemplateCache"}">
 					{csrf}
-					<button class="-linkButton" onclick="return confirm({translate|json_encode|escape key="admin.confirmClearTemplateCache"})">{translate key="admin.clearTemplateCache"}</button>
+					<button class="-linkButton"
+						onclick="return confirm({translate|json_encode|escape key="admin.confirmClearTemplateCache"})">{translate key="admin.clearTemplateCache"}</button>
 				</form>
 			</li>
 			<li>
 				<form type="post" action="{url op="clearScheduledTaskLogFiles"}">
 					{csrf}
-					<button class="-linkButton" onclick="return confirm({translate|json_encode|escape key="admin.scheduledTask.confirmClearLogs"})">{translate key="admin.scheduledTask.clearLogs"}</button>
+					<button class="-linkButton"
+						onclick="return confirm({translate|json_encode|escape key="admin.scheduledTask.confirmClearLogs"})">{translate key="admin.scheduledTask.clearLogs"}</button>
 				</form>
 			</li>
 			{call_hook name="Templates::Admin::Index::AdminFunctions"}
 		</ul>
 	</div>
 {/block}
+
+{* Thêm SweetAlert2 và script xác nhận đẹp *}
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		const btn = document.querySelector('.expireSessionsBtn');
+		if (btn) {
+			btn.addEventListener('click', function(e) {
+				e.preventDefault();
+				Swal.fire({
+					title: {translate|json_encode|escape key="admin.confirmExpireSessionsTitle"},
+					text: {translate|json_encode|escape key="admin.confirmExpireSessions"},
+					icon: 'warning',
+					showCancelButton: true,
+					confirmButtonText: {translate|json_encode|escape key="common.ok"},
+					cancelButtonText: {translate|json_encode|escape key="common.cancel"}
+				}).then((result) => {
+					if (result.isConfirmed) {
+						btn.closest('form').submit();
+					}
+				});
+			});
+		}
+	});
+</script>

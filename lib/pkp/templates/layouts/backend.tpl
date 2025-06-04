@@ -9,6 +9,7 @@
  *}
 <!DOCTYPE html>
 <html lang="{$currentLocale|replace:"_":"-"}" xml:lang="{$currentLocale|replace:"_":"-"}">
+
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset={$defaultCharset|escape}" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,17 +18,19 @@
 	{load_stylesheet context="backend"}
 	{load_script context="backend"}
 </head>
-<body class="pkp_page_{$requestedPage|escape|default:"index"} pkp_op_{$requestedOp|escape|default:"index"}" dir="{$currentLocaleLangDir|escape|default:"ltr"}">
+
+<body class="pkp_page_{$requestedPage|escape|default:"index"} pkp_op_{$requestedOp|escape|default:"index"}"
+	dir="{$currentLocaleLangDir|escape|default:"ltr"}">
 
 	<script type="text/javascript">
 		// Initialise JS handler.
 		$(function() {ldelim}
-			$('body').pkpHandler(
+		$('body').pkpHandler(
 				'$.pkp.controllers.SiteHandler',
 				{ldelim}
-					{include file="controllers/notification/notificationOptions.tpl"}
+				{include file="controllers/notification/notificationOptions.tpl"}
 				{rdelim});
-		{rdelim});
+				{rdelim});
 	</script>
 
 	<div id="app" class="app {if $isLoggedInAs} app--isLoggedInAs{/if}">
@@ -89,7 +92,8 @@
 									<ul>
 										{foreach from=$supportedLocales item="locale" key="localeKey"}
 											<li>
-												<a href="{url router=$smarty.const.ROUTE_PAGE page="user" op="setLocale" path=$localeKey}" class="pkpDropdown__action">
+												<a href="{url router=$smarty.const.ROUTE_PAGE page="user" op="setLocale" path=$localeKey}"
+													class="pkpDropdown__action">
 													{if $localeKey == $currentLocale}
 														<icon icon="check" :inline="true"></icon>
 													{/if}
@@ -104,7 +108,8 @@
 								<div class="pkpDropdown__section">
 									<div class="app__userNav__loggedInAs">
 										{translate key="manager.people.signedInAs" username=$currentUser->getData('username')}
-										<a href="{url router=$smarty.const.ROUTE_PAGE page="login" op="signOutAsUser"}" class="app__userNav__logOutAs">{translate key="user.logOutAs" username=$currentUser->getData('username')}</a>.
+										<a href="{url router=$smarty.const.ROUTE_PAGE page="login" op="signOutAsUser"}"
+											class="app__userNav__logOutAs">{translate key="user.logOutAs" username=$currentUser->getData('username')}</a>.
 									</div>
 								</div>
 							{/if}
@@ -116,17 +121,20 @@
 										</a>
 									</li>
 									<li>
-										<a href="{url router=$smarty.const.ROUTE_PAGE page="user" op="profile"}" class="pkpDropdown__action">
+										<a href="{url router=$smarty.const.ROUTE_PAGE page="user" op="profile"}"
+											class="pkpDropdown__action">
 											{translate key="user.profile.editProfile"}
 										</a>
 									</li>
 									<li>
 										{if $isUserLoggedInAs}
-											<a href="{url router=$smarty.const.ROUTE_PAGE page="login" op="signOutAsUser"}" class="pkpDropdown__action">
+											<a href="{url router=$smarty.const.ROUTE_PAGE page="login" op="signOutAsUser"}"
+												class="pkpDropdown__action">
 												{translate key="user.logOutAs" username=$currentUser->getData('username')}
 											</a>
 										{else}
-											<a href="{url router=$smarty.const.ROUTE_PAGE page="login" op="signOut"}" class="pkpDropdown__action">
+											<a href="{url router=$smarty.const.ROUTE_PAGE page="login" op="signOut"}"
+												class="pkpDropdown__action">
 												{translate key="user.logOut"}
 											</a>
 										{/if}
@@ -148,18 +156,21 @@
 
 		<div class="app__body">
 			{block name="menu"}
-				<nav v-if="!!menu && Object.keys(menu).length > 1" class="app__nav" aria-label="{translate key="common.navigation.site"}">
+				<nav v-if="!!menu && Object.keys(menu).length > 1" class="app__nav"
+					aria-label="{translate key="common.navigation.site"}">
 					<ul>
 						<li v-for="(menuItem, key) in menu" :key="key" :class="!!menuItem.submenu ? 'app__navGroup' : ''">
 							<div v-if="!!menuItem.submenu" class="app__navItem app__navItem--hasSubmenu">
 								{{ menuItem.name }}
 							</div>
-							<a v-else class="app__navItem" :class="menuItem.isCurrent ? 'app__navItem--isCurrent' : ''" :href="menuItem.url">
+							<a v-else class="app__navItem" :class="menuItem.isCurrent ? 'app__navItem--isCurrent' : ''"
+								:href="menuItem.url">
 								{{ menuItem.name }}
 							</a>
 							<ul v-if="!!menuItem.submenu">
 								<li v-for="(submenuItem, submenuKey) in menuItem.submenu" :key="submenuKey">
-									<a class="app__navItem" :class="submenuItem.isCurrent ? 'app__navItem--isCurrent' : ''" :href="submenuItem.url">
+									<a class="app__navItem" :class="submenuItem.isCurrent ? 'app__navItem--isCurrent' : ''"
+										:href="submenuItem.url">
 										{{ submenuItem.name }}
 									</a>
 								</li>
@@ -173,7 +184,8 @@
 				<div class="app__page{if $pageWidth} app__page--{$pageWidth}{/if}">
 					{block name="breadcrumbs"}
 						{if $breadcrumbs}
-							<nav class="app__breadcrumbs" role="navigation" aria-label="{translate key="navigation.breadcrumbLabel"}">
+							<nav class="app__breadcrumbs" role="navigation"
+								aria-label="{translate key="navigation.breadcrumbLabel"}">
 								<ol>
 									{foreach from=$breadcrumbs item="breadcrumb" name="breadcrumbs"}
 										<li>
@@ -183,7 +195,8 @@
 												<a href="{$breadcrumb.url|escape}">
 													{$breadcrumb.name|escape}
 												</a>
-												<span class="app__breadcrumbsSeparator" aria-hidden="true">{translate key="navigation.breadcrumbSeparator"}</span>
+												<span class="app__breadcrumbsSeparator"
+													aria-hidden="true">{translate key="navigation.breadcrumbSeparator"}</span>
 											{/if}
 										</li>
 									{/foreach}
@@ -197,15 +210,10 @@
 				</div>
 			</main>
 		</div>
-		<div
-			aria-live="polite"
-			aria-atomic="true"
-			class="app__notifications"
-			ref="notifications"
-			role="status"
-		>
+		<div aria-live="polite" aria-atomic="true" class="app__notifications" ref="notifications" role="status">
 			<transition-group name="app__notification">
-				<notification v-for="notification in notifications" :key="notification.key" :type="notification.type" :can-dismiss="true" @dismiss="dismissNotification(notification.key)">
+				<notification v-for="notification in notifications" :key="notification.key" :type="notification.type"
+					:can-dismiss="true" @dismiss="dismissNotification(notification.key)">
 					{{ notification.message }}
 				</notification>
 			</transition-group>
@@ -219,13 +227,13 @@
 	<script type="text/javascript">
 		// Initialize JS handler
 		$(function() {ldelim}
-			$('#pkpHelpPanel').pkpHandler(
-				'$.pkp.controllers.HelpPanelHandler',
-				{ldelim}
-					helpUrl: {url|json_encode page="help" escape=false},
-					helpLocale: '{$currentLocale|substr:0:2}',
-				{rdelim}
-			);
+		$('#pkpHelpPanel').pkpHandler(
+			'$.pkp.controllers.HelpPanelHandler',
+			{ldelim}
+			helpUrl: {url|json_encode page="help" escape=false},
+			helpLocale: '{$currentLocale|substr:0:2}',
+			{rdelim}
+		);
 		{rdelim});
 	</script>
 	<div id="pkpHelpPanel" class="pkp_help_panel" tabindex="-1">
@@ -252,5 +260,30 @@
 		</div>
 	</div>
 
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </body>
+
 </html>
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		const btn = document.querySelector('.expireSessionsBtn');
+		if (btn) {
+			btn.addEventListener('click', function(e) {
+				e.preventDefault();
+				Swal.fire({
+					title: 'Xác nhận',
+					text: 'Bạn có chắc chắn muốn hết hạn tất cả các phiên người dùng không? Tất cả người dùng hiện đang đăng nhập vào hệ thống sẽ buộc phải đăng nhập lại (bao gồm cả bạn).',
+					icon: 'warning',
+					showCancelButton: true,
+					confirmButtonText: 'Đồng ý',
+					cancelButtonText: 'Hủy'
+				}).then((result) => {
+					if (result.isConfirmed) {
+						btn.closest('form').submit();
+					}
+				});
+			});
+		}
+	});
+</script>

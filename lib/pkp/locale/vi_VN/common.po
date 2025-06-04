@@ -2079,3 +2079,9 @@ msgstr "Đây không phải là một URL hợp lệ."
 
 #~ msgid "search.noKeywordError"
 #~ msgstr "Bạn phải nhập ít nhất một từ khóa tìm kiếm."
+
+msgid "common.ok"
+msgstr "Đồng ý"
+
+msgid "common.cancel"
+msgstr "Hủy bỏ"

@@ -45,7 +45,8 @@
 				{capture assign="defaultAltText"}
 					{translate key="issue.viewIssueIdentification" identification=$issue->getIssueIdentification()|escape}
 				{/capture}
-				<img src="{$issueCover|escape}" alt="{$issue->getLocalizedCoverImageAltText()|escape|default:$defaultAltText}">
+				<img src="{$issueCover|escape}"
+					alt="{$issue->getLocalizedCoverImageAltText()|escape|default:$defaultAltText}">
 			</a>
 		{/if}
 
@@ -109,23 +110,23 @@
 
 	{* Articles *}
 	<div class="sections">
-	{foreach name=sections from=$publishedSubmissions item=section}
-		<div class="section">
-		{if $section.articles}
-			{if $section.title}
-				<{$heading}>
-					{$section.title|escape}
-				</{$heading}>
-			{/if}
-			<ul class="cmp_article_list articles">
-				{foreach from=$section.articles item=article}
-					<li>
-						{include file="frontend/objects/article_summary.tpl" heading=$articleHeading}
-					</li>
-				{/foreach}
-			</ul>
-		{/if}
-		</div>
-	{/foreach}
+		{foreach name=sections from=$publishedSubmissions item=section}
+			<div class="section">
+				{if $section.articles}
+					{if $section.title}
+						<{$heading}>
+							{$section.title|escape}
+						</{$heading}>
+					{/if}
+					<ul class="cmp_article_list articles">
+						{foreach from=$section.articles item=article}
+							<li>
+								{include file="frontend/objects/article_summary.tpl" heading=$articleHeading}
+							</li>
+						{/foreach}
+					</ul>
+				{/if}
+			</div>
+		{/foreach}
 	</div><!-- .sections -->
 </div>
