@@ -34,7 +34,7 @@
 	{$smarty.capture.searchFormUrl|parse_url:$smarty.const.PHP_URL_QUERY|parse_str:$formUrlParameters}
 	<form class="cmp_form" method="get" action="{$smarty.capture.searchFormUrl|strtok:"?"|escape}">
 		{foreach from=$formUrlParameters key=paramKey item=paramValue}
-			<input type="hidden" name="{$paramKey|escape}" value="{$paramValue|escape}"/>
+			<input type="hidden" name="{$paramKey|escape}" value="{$paramValue|escape}" />
 		{/foreach}
 
 		{* Repeat the label text just so that screen readers have a clear
@@ -44,7 +44,8 @@
 				{translate key="search.searchFor"}
 			</label>
 			{block name=searchQuery}
-				<input type="text" id="query" name="query" value="{$query|escape}" class="query" placeholder="{translate|escape key="common.search"}">
+				<input type="text" id="query" name="query" value="{$query|escape}" class="query"
+					placeholder="{translate|escape key="common.search"}">
 			{/block}
 		</div>
 
@@ -97,9 +98,9 @@
 	{* Search results, finally! *}
 	<ul class="search_results">
 		{iterate from=results item=result}
-			<li>
-				{include file="frontend/objects/article_summary.tpl" article=$result.publishedSubmission journal=$result.journal showDatePublished=true hideGalleys=true heading="h3"}
-			</li>
+		<li>
+			{include file="frontend/objects/article_summary.tpl" article=$result.publishedSubmission journal=$result.journal showDatePublished=true hideGalleys=true heading="h3"}
+		</li>
 		{/iterate}
 	</ul>
 
@@ -113,7 +114,7 @@
 			{/if}
 		</span>
 
-	{* Results pagination *}
+		{* Results pagination *}
 	{else}
 		<div class="cmp_pagination">
 			{page_info iterator=$results}

@@ -396,3 +396,57 @@ msgstr "Publication has been assigned to an issue"
 
 msgid "publication.changeIssue"
 msgstr "Change the issue of the publication"
+
+msgid "search.searchDescription"
+msgstr "Search for articles by title, author, or keyword"
+
+msgid "search.searchPlaceholder"
+msgstr "Enter search keywords..."
+
+msgid "search.authorPlaceholder"
+msgstr "Enter author's name"
+
+msgid "search.dateRange"
+msgstr "Date range"
+
+msgid "search.clearFilters"
+msgstr "Clear filters"
+
+msgid "search.noResultsAdvice"
+msgstr "No matching results found. Try different keywords."
+
+msgid "search.suggestions"
+msgstr "Search suggestions"
+
+msgid "search.suggestion1"
+msgstr "Check the spelling of your keywords"
+
+msgid "search.suggestion2"
+msgstr "Try different or more general keywords"
+
+msgid "search.suggestion3"
+msgstr "Use fewer keywords"
+
+msgid "search.tips"
+msgstr "Search tips"
+
+msgid "search.tip1.title"
+msgstr "Use quotation marks"
+
+msgid "search.tip1.description"
+msgstr "Put phrases in \"\" to search for the exact phrase"
+
+msgid "search.tip2.title"
+msgstr "Filter by date"
+
+msgid "search.tip2.description"
+msgstr "Use the date range filter to narrow down results"
+
+msgid "search.tip3.title"
+msgstr "Search by author"
+
+msgid "search.tip3.description"
+msgstr "Enter the author's name to view their articles"
+
+msgid "search.searchResults.foundSingle"
+msgstr "1 result found"

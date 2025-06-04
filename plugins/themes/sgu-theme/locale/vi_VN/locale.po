@@ -396,3 +396,63 @@ msgstr "Chuỗi đã được gán vào số báo"
 
 msgid "publication.changeIssue"
 msgstr "Thay đổi số báo"
+
+msgid "search.searchDescription"
+msgstr "Tìm kiếm bài viết theo tiêu đề, tác giả hoặc từ khóa"
+
+msgid "search.searchPlaceholder"
+msgstr "Nhập từ khóa tìm kiếm..."
+
+msgid "search.authorPlaceholder"
+msgstr "Nhập tên tác giả"
+
+msgid "search.dateRange"
+msgstr "Khoảng thời gian"
+
+msgid "search.clearFilters"
+msgstr "Xóa bộ lọc"
+
+msgid "search.noResultsAdvice"
+msgstr "Không tìm thấy kết quả phù hợp. Hãy thử từ khóa khác."
+
+msgid "search.suggestions"
+msgstr "Gợi ý tìm kiếm"
+
+msgid "search.suggestion1"
+msgstr "Kiểm tra chính tả từ khóa của bạn"
+
+msgid "search.suggestion2"
+msgstr "Thử sử dụng từ khóa khác hoặc chung hơn"
+
+msgid "search.suggestion3"
+msgstr "Sử dụng ít từ khóa hơn"
+
+msgid "search.tips"
+msgstr "Mẹo tìm kiếm"
+
+msgid "search.tip1.title"
+msgstr "Sử dụng dấu ngoặc kép"
+
+msgid "search.tip1.description"
+msgstr "Đặt cụm từ trong dấu \"\" để tìm chính xác cụm từ đó"
+
+msgid "search.tip2.title"
+msgstr "Lọc theo ngày"
+
+msgid "search.tip2.description"
+msgstr "Sử dụng bộ lọc khoảng thời gian để thu hẹp kết quả tìm kiếm"
+
+msgid "search.tip3.title"
+msgstr "Tìm theo tác giả"
+
+msgid "search.tip3.description"
+msgstr "Nhập tên tác giả để xem các bài viết của họ"
+
+msgid "search.searchResults.foundSingle"
+msgstr "Đã tìm thấy 1 kết quả"
+
+msgid "search.applyFilters"
+msgstr "Áp dụng bộ lọc"
+
+msgid "search.applyFilters"
+msgstr "Apply filters"
