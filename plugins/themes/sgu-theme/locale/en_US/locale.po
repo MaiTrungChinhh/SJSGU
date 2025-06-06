@@ -1,0 +1,452 @@
+msgid "plugins.themes.sgu-theme.name"
+msgstr "SGU Theme"
+
+msgid "plugins.themes.sgu-theme.description"
+msgstr "SGU theme for OJS or OMP built with our amazing documentation."
+
+msgid "form.saved"
+msgstr "Saved"
+
+msgid "manager.setup.dateTime"
+msgstr "Manager Setup Date and Time"
+
+msgid "manager.setup.dateTime.descriptionTitle"
+msgstr "Date and Time Settings Description"
+
+msgid "manager.setup.dateTime.description"
+msgstr "Configure the date and time display format for the system"
+
+msgid "manager.setup.dateTime.longDate"
+msgstr "Long Date Format"
+
+msgid "manager.setup.dateTime.custom"
+msgstr "Custom Format"
+
+msgid "manager.setup.dateTime.shortDate"
+msgstr "Short Date Format"
+
+msgid "manager.setup.dateTime.time"
+msgstr "Time Format"
+
+msgid "manager.setup.dateTime.longDateTime"
+msgstr "Long Date and Time Format"
+
+msgid "manager.setup.dateTime.shortDateTime"
+msgstr "Short Date and Time Format"
+
+msgid "admin.settings.enableBulkEmails.label"
+msgstr "Enable Bulk Email Sending"
+
+msgid "common.titleSeparator"
+msgstr " "
+
+msgid "common.inactive"
+msgstr "Inactive"
+
+msgid "manager.sections.form.deactivateSection"
+msgstr "Deactivate this section"
+
+msgid "manager.setup.disableSubmissions"
+msgstr "Disable submissions to the journal"
+
+msgid "manager.setup.disableSubmissions.description"
+msgstr "Prevent users from submitting new manuscripts to the journal."
+
+msgid "manager.setup.disableSubmissions.notAccepting"
+msgstr "This journal is currently not accepting submissions."
+
+msgid "manager.setup.genres.label"
+msgstr "Component Types"
+
+msgid "manager.setup.genres.metatadata.description"
+msgstr "These genres are used to designate types of submission components."
+
+msgid "manager.setup.genres.metatadata"
+msgstr "Submission genre metadata information"
+
+msgid "manager.setup.notifyUsers"
+msgstr "Notify Users"
+
+msgid "manager.setup.notifyUsers.description"
+msgstr "Send an email notification to all registered users of this journal. This can be used to announce new issues, calls for papers, or other journal news."
+
+msgid "manager.setup.notifyUsers.copyDetails"
+msgstr "Enter the message that will be emailed to all registered users. This email will be sent to users who have opted to receive notifications."
+
+msgid "submission.submit.genre.label"
+msgstr "Submission Component"
+
+msgid "common.addFile"
+msgstr "Add File"
+
+msgid "navigation.backTo"
+msgstr "Back to"
+
+msgid "submission.upload.instructions"
+msgstr "Upload the file associated with this submission. Accepted formats include DOCX, PDF, or other supported file types."
+
+msgid "submission.submit.genre.error"
+msgstr "Please select the correct file format before proceeding."
+
+msgid "submission.submit.removeConfirm"
+msgstr "Are you sure you want to remove this file?"
+
+msgid "submission.viewingPreview"
+msgstr "You are viewing a preview of the submission."
+
+msgid "submission.submit.genre.description"
+msgstr "Please select the appropriate genre for the file you are submitting (e.g., article, appendix, research data, image, etc.)."
+
+msgid "common.editItem"
+msgstr "Edit item"
+
+msgid "user.login.loginToYourAccount"
+msgstr "Sign in to your account"
+
+msgid "user.login.welcomeMessage"
+msgstr "Welcome! Please log in to continue."
+
+msgid "user.login.needAnAccount"
+msgstr "Don't have an account?"
+
+msgid "user.login.usernameOrEmail"
+msgstr "Username or email"
+
+msgid "user.login.password"
+msgstr "Password"
+
+msgid "user.register.form.interests"
+msgstr "Interests"
+
+msgid "user.register.createAccount"
+msgstr "Create Account"
+
+msgid "user.register.privacyConsent"
+msgstr "I agree to the privacy policy"
+
+msgid "user.register.welcomeMessage"
+msgstr "Welcome! Your account has been successfully created."
+
+msgid "user.register.alreadyHaveAccount"
+msgstr "Already have an account?"
+
+msgid "about.editorialTeam"
+msgstr "Editorial Board"
+
+msgid "about.editorialTeam.chairman"
+msgstr "Chairman"
+
+msgid "about.editorialTeam.editorInChief"
+msgstr "Editor-in-Chief"
+
+msgid "about.editorialTeam.boardMember"
+msgstr "Board Member"
+
+msgid "about.editorialTeam.secretary"
+msgstr "Editorial Secretary"
+
+msgid "about.editorialTeam.assistant"
+msgstr "Editorial Assistant"
+
+msgid "about.contact"
+msgstr "Contact Information"
+
+msgid "user.login.resetPasswordHelp"
+msgstr "Enter your email address to reset your password."
+
+msgid "about.submissions.description"
+msgstr "Interested in submitting to this journal? We recommend that you review the About the Journal page for the journal's section policies, as well as the Author Guidelines. Authors need to register with the journal prior to submitting or, if already registered, can simply log in and begin the five-step process."
+
+msgid "about.onlineSubmissions"
+msgstr "Online Submissions"
+
+msgid "common.processing"
+msgstr "Processing..."
+
+msgid "plugins.themes.sgu-theme.footer.managingAgency"
+msgstr "Managing Agency:"
+
+msgid "plugins.themes.sgu-theme.footer.saigonUniversity"
+msgstr "Saigon University"
+
+msgid "plugins.themes.sgu-theme.footer.journalName"
+msgstr "Journal Name:"
+
+msgid "plugins.themes.sgu-theme.footer.scientificJournal"
+msgstr "Scientific Journal Sai Gon University"
+
+msgid "plugins.themes.sgu-theme.footer.address"
+msgstr "273 An Duong Vuong, Ward 3, District 5, Ho Chi Minh City"
+
+msgid "plugins.themes.sgu-theme.footer.workingHours"
+msgstr "Monday to Friday, 7:30 AM to 5:00 PM"
+
+msgid "plugins.themes.sgu-theme.footer.license"
+msgstr "License number"
+
+msgid "plugins.themes.sgu-theme.footer.issuedBy"
+msgstr "Issued on"
+
+msgid "plugins.themes.sgu-theme.footer.editorialBoard"
+msgstr "Editorial Board"
+
+msgid "plugins.themes.sgu-theme.footer.editorInChief"
+msgstr "Editor-in-Chief:"
+
+msgid "common.website"
+msgstr "Website:"
+
+msgid "common.email"
+msgstr "E-mail:"
+
+msgid "plugins.themes.sgu-theme.footer.phone"
+msgstr "Phone:"
+
+msgid "plugins.themes.sgu-theme.footer.copyright"
+msgstr "Copyright © Saigon University"
+
+msgid "plugins.themes.sgu-theme.footer.addressTitle"
+msgstr "Address:"
+
+msgid "plugins.themes.sgu-theme.footer.workingHoursTitle"
+msgstr "Working Hours:"
+
+msgid "plugins.themes.sgu-theme.footer.licenseTitle"
+msgstr "Print and Online Journal License No.:"
+
+msgid "plugins.themes.sgu-theme.footer.issuedByTitle"
+msgstr "Issued by the Ministry of Information and Communications on:"
+
+msgid "plugins.themes.sgu-theme.about.journal.alt"
+msgstr "Scientific Journal of Saigon University"
+
+msgid "plugins.themes.sgu-theme.about.journal.title"
+msgstr "SCIENTIFIC JOURNAL OF SAIGON UNIVERSITY"
+
+msgid "plugins.themes.sgu-theme.about.journal.subtitle"
+msgstr "Scientific Journal of Saigon University"
+
+msgid "plugins.themes.sgu-theme.about.journal.issn"
+msgstr "ISSN 1859 - 3208"
+
+msgid "plugins.themes.sgu-theme.about.journal.license"
+msgstr "No.: 1945/QD-SGU-TTTT&PTGD"
+
+msgid "plugins.themes.sgu-theme.about.journal.admin"
+msgstr "<strong>HCMC People's Committee</strong> - <strong>Saigon University</strong><br><strong>Socialist Republic of Vietnam</strong> - Independence, Freedom, Happiness"
+
+msgid "plugins.themes.sgu-theme.about.section.1.title"
+msgstr "1. General Introduction"
+
+msgid "plugins.themes.sgu-theme.about.section.1.paragraph.1"
+msgstr "The Scientific Journal of Saigon University is part of the official press system of the Socialist Republic of Vietnam, with scientific voice on par with educational science journals and other field journals."
+
+msgid "plugins.themes.sgu-theme.about.section.1.paragraph.2"
+msgstr "The Scientific Journal of Saigon University has the International ISSN 1859 - 3208, confirming that the Journal meets international standards in the field of science. Professors, Associate Professors, Doctors, PhD students, Masters, Graduate students, lecturers, and students with scientific research works according to the Journal's orientation will be counted for scientific research points as regulated."
+
+msgid "plugins.themes.sgu-theme.about.section.2.title"
+msgstr "2. Journal Name"
+
+msgid "plugins.themes.sgu-theme.about.section.2.vietnamese"
+msgstr "Vietnamese name: Tạp chí Khoa học Đại học Sài Gòn."
+
+msgid "plugins.themes.sgu-theme.about.section.2.english"
+msgstr "English name: Scientific Journal of Saigon University."
+
+msgid "plugins.themes.sgu-theme.about.section.2.abbreviation"
+msgstr "Abbreviation: SJSGU."
+
+msgid "plugins.themes.sgu-theme.about.section.2.address"
+msgstr "Address: 273 An Duong Vuong, Ward 3, District 5, Ho Chi Minh City."
+
+msgid "plugins.themes.sgu-theme.about.section.2.contact"
+msgstr "Phone: 08.38321360; Email: <a href=\"mailto:tcdhsg@sgu.edu.vn\">tcdhsg@sgu.edu.vn</a>"
+
+msgid "plugins.themes.sgu-theme.about.section.2.seal"
+msgstr "The Scientific Journal of Saigon University has its own seal."
+
+msgid "plugins.themes.sgu-theme.about.section.3.title"
+msgstr "3. Purpose and Mission"
+
+msgid "plugins.themes.sgu-theme.about.section.3.paragraph.1"
+msgstr "The Scientific Journal of Saigon University is a scientific forum publishing research results and scientific activities of staff, lecturers, and students of Saigon University, connecting the university's scientific research with practical production, innovation, and national development."
+
+msgid "plugins.themes.sgu-theme.about.section.3.paragraph.2"
+msgstr "The Scientific Journal of Saigon University will be a forum for exchanging thoughts, viewpoints, and research orientations across disciplines between scientists, managers, scholars, and educators at colleges, universities, institutes, academies, and research centers both domestically and internationally; contributing to gradually perfecting and enhancing the training and scientific research functions of Saigon University."
+
+msgid "plugins.themes.sgu-theme.about.section.3.paragraph.3"
+msgstr "The Scientific Journal of Saigon University is an important bridge between Saigon University and educational institutions in the national education system, with companies, enterprises, units, and production facilities in the relationship between training and usage, between research and practical economic-social life of the city, region, and country."
+
+msgid "plugins.themes.sgu-theme.about.section.4.title"
+msgstr "4. Content Structure"
+
+msgid "plugins.themes.sgu-theme.about.section.4.topics.title"
+msgstr "Topic Structure:"
+
+msgid "plugins.themes.sgu-theme.about.section.4.topics.natural"
+msgstr "Natural Sciences & Technology"
+
+msgid "plugins.themes.sgu-theme.about.section.4.topics.social"
+msgstr "Social Sciences & Humanities"
+
+msgid "plugins.themes.sgu-theme.about.section.4.topics.education"
+msgstr "Educational Sciences"
+
+msgid "plugins.themes.sgu-theme.about.section.4.topics.others"
+msgstr "Other Topics"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.title"
+msgstr "Content Structure of Each Issue:"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.cover1"
+msgstr "Cover 1: According to template (attached)"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.cover2"
+msgstr "Cover 2: Editorial Board and Editorial Office Introduction (according to attached template)"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.cover3"
+msgstr "Cover 3: Submission Guidelines"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.cover4"
+msgstr "Cover 4: According to template (attached)"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.contents"
+msgstr "Pages 1 and 2: English + Vietnamese Contents"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.articles"
+msgstr "Articles"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.news"
+msgstr "Last page: News"
+
+msgid "plugins.themes.sgu-theme.about.section.4.article.title"
+msgstr "Article Content Structure:"
+
+msgid "plugins.themes.sgu-theme.about.section.4.article.requirement"
+msgstr "Scientific articles must be comprehensive, research-based, with new contributions and scientific impact, written according to the Journal's guidelines."
+
+msgid "plugins.themes.sgu-theme.about.section.4.article.abstract"
+msgstr "Abstract and keywords in Vietnamese and English."
+
+msgid "plugins.themes.sgu-theme.about.section.4.article.structure"
+msgstr "Sections must be tightly structured and logical."
+
+msgid "plugins.themes.sgu-theme.about.section.4.article.references"
+msgstr "References must be presented according to the standards mentioned in the submission guidelines."
+
+msgid "plugins.themes.sgu-theme.about.section.5.title"
+msgstr "5. Format"
+
+msgid "plugins.themes.sgu-theme.about.section.5.publishing"
+msgstr "Publishing period: Monthly (excluding special issues)"
+
+msgid "plugins.themes.sgu-theme.about.section.5.format"
+msgstr "Format: 19 x 27 cm"
+
+msgid "plugins.themes.sgu-theme.about.section.5.pages"
+msgstr "Pages per issue: 120 - 130 pages"
+
+msgid "plugins.themes.sgu-theme.about.section.5.copies"
+msgstr "Print run per issue: 1,000 copies"
+
+msgid "plugins.themes.sgu-theme.about.section.5.printing"
+msgstr "Printing location: Printers nationwide"
+
+msgid "plugins.themes.sgu-theme.about.section.5.distribution"
+msgstr "Distribution scope: Domestic and international"
+
+msgid "plugins.themes.sgu-theme.about.section.5.method"
+msgstr "Distribution method: Complimentary and self-distribution"
+
+msgid "plugins.themes.sgu-theme.about.section.5.price"
+msgstr "Retail price: According to current rates"
+
+msgid "plugins.themes.sgu-theme.about.section.6.title"
+msgstr "6. Target Audience"
+
+msgid "plugins.themes.sgu-theme.about.section.6.readers.1"
+msgstr "Scientists and readers both domestic and international."
+
+msgid "plugins.themes.sgu-theme.about.section.6.readers.2"
+msgstr "Staff, lecturers, students, and graduate students of Saigon University."
+
+msgid "plugins.themes.sgu-theme.about.section.6.readers.3"
+msgstr "Colleges, universities, institutes, academies, and research centers nationwide."
+
+msgid "plugins.themes.sgu-theme.about.section.6.readers.4"
+msgstr "Educational institutions nationwide (Departments of Education & Training, Education Offices, schools, and continuing education centers)."
+
+msgid "plugins.themes.sgu-theme.about.section.6.readers.5"
+msgstr "Companies, enterprises, units, and production facilities with needs."
+
+msgid "stats.name.submissionsSkipped"
+msgstr "The number of submissions skipped in the system."
+
+msgid "stats.name.submissionsInProgress"
+msgstr "The number of submissions currently in progress in the system."
+
+msgid "stats.name.submissionsImported"
+msgstr "The number of submissions imported into the system."
+
+msgid "about.onlineSubmissions.submissionActions.description"
+msgstr "Describes the actions available for authors during the submission process, including uploading files, providing metadata, and managing their submissions."
+
+msgid "publication.assignedToIssue"
+msgstr "Publication has been assigned to an issue"
+
+msgid "publication.changeIssue"
+msgstr "Change the issue of the publication"
+
+msgid "search.searchDescription"
+msgstr "Search for articles by title, author, or keyword"
+
+msgid "search.searchPlaceholder"
+msgstr "Enter search keywords..."
+
+msgid "search.authorPlaceholder"
+msgstr "Enter author's name"
+
+msgid "search.dateRange"
+msgstr "Date range"
+
+msgid "search.clearFilters"
+msgstr "Clear filters"
+
+msgid "search.noResultsAdvice"
+msgstr "No matching results found. Try different keywords."
+
+msgid "search.suggestions"
+msgstr "Search suggestions"
+
+msgid "search.suggestion1"
+msgstr "Check the spelling of your keywords"
+
+msgid "search.suggestion2"
+msgstr "Try different or more general keywords"
+
+msgid "search.suggestion3"
+msgstr "Use fewer keywords"
+
+msgid "search.tips"
+msgstr "Search tips"
+
+msgid "search.tip1.title"
+msgstr "Use quotation marks"
+
+msgid "search.tip1.description"
+msgstr "Put phrases in \"\" to search for the exact phrase"
+
+msgid "search.tip2.title"
+msgstr "Filter by date"
+
+msgid "search.tip2.description"
+msgstr "Use the date range filter to narrow down results"
+
+msgid "search.tip3.title"
+msgstr "Search by author"
+
+msgid "search.tip3.description"
+msgstr "Enter the author's name to view their articles"
+
+msgid "search.searchResults.foundSingle"
+msgstr "1 result found"

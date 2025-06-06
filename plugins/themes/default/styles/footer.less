@@ -1,0 +1,154 @@
+/**
+ * @file plugins/themes/default/styles/footer.less
+ *
+ * Copyright (c) 2014-2021 Simon Fraser University
+ * Copyright (c) 2003-2021 John Willinsky
+ * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+ *
+ * @brief Classes for the page footer elements
+ */
+
+.pkp_structure_footer_wrapper {
+	background: @bg-shade;
+}
+
+.pkp_structure_footer {
+	text-align: center;
+}
+
+.pkp_footer_content {
+	padding: @triple;
+	text-align: left;
+}
+
+// OJS brand images in footer
+.pkp_brand_footer {
+	.pkp_helpers_clear();
+	padding: @triple;
+
+	a {
+		float: right;
+		display: block;
+		max-width: 150px;
+	}
+}
+
+// Custom footer styles for .footer-info
+.pkp_structure_footer_wrapper {
+	background: #fff;
+	padding: 40px 0 20px 0;
+	border-top: 1px solid #eee;
+
+	.row {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		gap: 48px;
+		margin: 0;
+	}
+
+	.col {
+		flex: 1 1 0;
+		min-width: 220px;
+		max-width: 320px;
+		padding: 0 18px;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+
+	.widget-title {
+		font-size: 1.18rem;
+		font-weight: 700;
+		letter-spacing: 1px;
+		color: #222;
+		margin-bottom: 8px;
+		text-transform: uppercase;
+		text-align: left;
+	}
+
+	.is-divider.small {
+		width: 32px;
+		height: 3px;
+		background: #1976d2;
+		border: none;
+		margin: 0 0 16px 0;
+		opacity: 0.7;
+	}
+
+	.textwidget,
+	.custom-html-widget {
+		font-size: 1rem;
+		color: #333;
+		line-height: 1.7;
+		text-align: left;
+		width: 100%;
+
+		a {
+			color: #1976d2;
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	iframe {
+		border-radius: 8px;
+		box-shadow: 0 2px 12px rgba(25, 118, 210, 0.08);
+		margin-bottom: 8px;
+		max-width: 100%;
+		height: 100px;
+		display: block;
+	}
+
+	.widget_archive select {
+		width: 100%;
+		padding: 10px 14px;
+		border: 1.5px solid #ccc;
+		border-radius: 5px;
+		font-size: 1.05rem;
+		background: #fafbfc;
+		margin-top: 8px;
+		transition: border 0.2s;
+		color: #222;
+		box-shadow: 0 1px 4px rgba(25, 118, 210, 0.04);
+		appearance: none;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		background-image: url('data:image/svg+xml;utf8,<svg fill="%231976d2" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+		background-repeat: no-repeat;
+		background-position: right 12px center;
+		background-size: 20px 20px;
+	}
+
+	.widget_archive label {
+		font-size: 1rem;
+		color: #222;
+		margin-bottom: 4px;
+		display: block;
+		text-align: left;
+	}
+
+	.widget_archive option {
+		color: #222;
+	}
+
+	// Responsive
+	@media (max-width: 900px) {
+		.row {
+			flex-direction: column;
+			gap: 24px;
+		}
+
+		.col {
+			max-width: 100%;
+			min-width: 0;
+			padding: 0;
+			align-items: stretch;
+		}
+	}
+}

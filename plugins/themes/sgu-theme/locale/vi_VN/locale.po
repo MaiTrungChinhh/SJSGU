@@ -1,0 +1,458 @@
+msgid "plugins.themes.sgu-theme.name"
+msgstr "Giao diện SGU"
+
+msgid "plugins.themes.sgu-theme.description"
+msgstr "Giao diện SGU cho OJS hoặc OMP được xây dựng với tài liệu hướng dẫn tuyệt vời của chúng tôi."
+
+msgid "form.saved"
+msgstr "Đã lưu"
+
+msgid "manager.setup.dateTime"
+msgstr "Thiết lập Ngày và Giờ"
+
+msgid "manager.setup.dateTime.descriptionTitle"
+msgstr "Mô tả Cài đặt Ngày và Giờ"
+
+msgid "manager.setup.dateTime.description"
+msgstr "Cấu hình định dạng hiển thị ngày và giờ cho hệ thống"
+
+msgid "manager.setup.dateTime.longDate"
+msgstr "Định dạng Ngày Dài"
+
+msgid "manager.setup.dateTime.custom"
+msgstr "Định dạng Tùy chỉnh"
+
+msgid "manager.setup.dateTime.shortDate"
+msgstr "Định dạng Ngày Ngắn"
+
+msgid "manager.setup.dateTime.time"
+msgstr "Định dạng Giờ"
+
+msgid "manager.setup.dateTime.longDateTime"
+msgstr "Định dạng Ngày Giờ Dài"
+
+msgid "manager.setup.dateTime.shortDateTime"
+msgstr "Định dạng Ngày Giờ Ngắn"
+
+msgid "admin.settings.enableBulkEmails.label"
+msgstr "Bật Gửi Email Hàng Loạt"
+
+msgid "common.titleSeparator"
+msgstr " "
+
+msgid "common.inactive"
+msgstr "Không hoạt động"
+
+msgid "manager.sections.form.deactivateSection"
+msgstr "Vô hiệu hóa phần này"
+
+msgid "manager.setup.disableSubmissions"
+msgstr "Tắt tính năng gửi bài đến tạp chí"
+
+msgid "manager.setup.disableSubmissions.description"
+msgstr "Ngăn người dùng gửi bài mới đến tạp chí."
+
+msgid "manager.setup.disableSubmissions.notAccepting"
+msgstr "Tạp chí hiện tại không nhận bài gửi."
+
+msgid "manager.setup.genres.label"
+msgstr "Loại thành phần"
+
+msgid "manager.setup.genres.metatadata.description"
+msgstr "Những loại thành phần này được sử dụng để chỉ định loại tệp của bài nộp."
+
+msgid "manager.setup.genres.metatadata"
+msgstr "Thông tin siêu dữ liệu của loại bài nộp"
+
+msgid "manager.setup.notifyUsers"
+msgstr "Thông báo cho người dùng"
+
+msgid "manager.setup.notifyUsers.description"
+msgstr "Gửi thông báo qua email đến tất cả người dùng đã đăng ký của tạp chí. Tính năng này có thể được sử dụng để thông báo về số mới, lời mời gửi bài, hoặc các tin tức khác."
+
+msgid "manager.setup.notifyUsers.copyDetails"
+msgstr "Nhập nội dung thông báo sẽ được gửi đến tất cả người dùng đã đăng ký. Email này chỉ được gửi đến những người dùng đã chọn nhận thông báo."
+
+msgid "submission.submit.genre.label"
+msgstr "Thành phần bài nộp"
+
+msgid "common.addFile"
+msgstr "Thêm tệp"
+
+msgid "navigation.backTo"
+msgstr "Quay lại"
+
+msgid "submission.upload.instructions"
+msgstr "Tải lên tệp đính kèm với bài gửi. Chấp nhận các định dạng như DOCX, PDF hoặc các định dạng được hỗ trợ khác."
+
+msgid "submission.submit.genre.error"
+msgstr "Vui lòng chọn đúng định dạng tập tin trước khi tiếp tục."
+
+msgid "submission.submit.removeConfirm"
+msgstr "Bạn có chắc chắn muốn xóa tệp này không?"
+
+msgid "submission.viewingPreview"
+msgstr "Bạn đang xem trước bài nộp."
+
+msgid "submission.submit.genre.description"
+msgstr "Vui lòng chọn thể loại phù hợp cho tập tin bạn đang gửi (ví dụ: bài báo, phụ lục, dữ liệu nghiên cứu, hình ảnh, v.v.)."
+
+msgid "common.editItem"
+msgstr "Chỉnh sửa mục"
+
+msgid "user.login.loginToYourAccount"
+msgstr "Đăng nhập vào tài khoản của bạn"
+
+msgid "user.login.welcomeMessage"
+msgstr "Chào mừng! Vui lòng đăng nhập để tiếp tục."
+
+msgid "user.login.needAnAccount"
+msgstr "Chưa có tài khoản?"
+
+msgid "user.login.usernameOrEmail"
+msgstr "Tên người dùng hoặc email"
+
+msgid "user.login.password"
+msgstr "Mật khẩu"
+
+msgid "user.register.form.interests"
+msgstr "Sở thích"
+
+msgid "user.register.createAccount"
+msgstr "Tạo tài khoản"
+
+msgid "user.register.privacyConsent"
+msgstr "Tôi đồng ý với chính sách quyền riêng tư"
+
+msgid "user.register.welcomeMessage"
+msgstr "Chào mừng bạn đã đăng ký tài khoản!"
+
+msgid "user.register.alreadyHaveAccount"
+msgstr "Bạn đã có tài khoản?"
+
+msgid "about.editorialTeam"
+msgstr "Ban biên tập"
+
+msgid "about.editorialTeam.chairman"
+msgstr "Chủ tịch"
+
+msgid "about.editorialTeam.editorInChief"
+msgstr "Tổng biên tập"
+
+msgid "about.editorialTeam.boardMember"
+msgstr "Thành viên hội đồng"
+
+msgid "about.editorialTeam.secretary"
+msgstr "Thư ký biên tập"
+
+msgid "about.editorialTeam.assistant"
+msgstr "Trợ lý biên tập"
+
+msgid "about.contact"
+msgstr "Thông tin liên hệ"
+
+msgid "user.login.resetPasswordHelp"
+msgstr "Nhập địa chỉ email của bạn để đặt lại mật khẩu."
+
+msgid "about.submissions.description"
+msgstr "Quan tâm đến việc gửi bài cho tạp chí này? Chúng tôi khuyến nghị bạn xem trang Giới thiệu về Tạp chí để biết chính sách của từng phần, cũng như Hướng dẫn dành cho Tác giả. Tác giả cần đăng ký với tạp chí trước khi gửi bài hoặc, nếu đã đăng ký, có thể đăng nhập và bắt đầu quy trình gồm năm bước."
+
+msgid "about.onlineSubmissions"
+msgstr "Gửi bài trực tuyến"
+
+msgid "common.processing"
+msgstr "Đang xử lý..."
+
+msgid "plugins.themes.sgu-theme.footer.managingAgency"
+msgstr "Cơ quan chủ quản:"
+
+msgid "plugins.themes.sgu-theme.footer.saigonUniversity"
+msgstr "Trường Đại học Sài Gòn"
+
+msgid "plugins.themes.sgu-theme.footer.journalName"
+msgstr "Tên tạp chí:"
+
+msgid "plugins.themes.sgu-theme.footer.scientificJournal"
+msgstr "Tạp chí khoa học Đại Học Sài Gòn"
+
+msgid "plugins.themes.sgu-theme.footer.address"
+msgstr "273 An Dương Vương, Phường 3, Quận 5, Thành phố Hồ Chí Minh"
+
+msgid "plugins.themes.sgu-theme.footer.workingHours"
+msgstr "Thứ 2 - Thứ 6, từ 7h30 đến 17h00"
+
+msgid "plugins.themes.sgu-theme.footer.license"
+msgstr "số"
+
+msgid "plugins.themes.sgu-theme.footer.issuedBy"
+msgstr "ngày cấp"
+
+msgid "plugins.themes.sgu-theme.footer.editorialBoard"
+msgstr "Ban biên tập tạp chí khoa học Đại Học Sài Gòn"
+
+msgid "plugins.themes.sgu-theme.footer.editorInChief"
+msgstr "Tổng biên tập:"
+
+msgid "common.website"
+msgstr "Trang web:"
+
+msgid "common.email"
+msgstr "E-mail:"
+
+msgid "plugins.themes.sgu-theme.footer.phone"
+msgstr "Điện thoại:"
+
+msgid "plugins.themes.sgu-theme.footer.copyright"
+msgstr "Bản quyền thuộc Trường Đại học Sài Gòn"
+
+msgid "plugins.themes.sgu-theme.footer.addressTitle"
+msgstr "Địa chỉ:"
+
+msgid "plugins.themes.sgu-theme.footer.workingHoursTitle"
+msgstr "Thời gian làm việc:"
+
+msgid "plugins.themes.sgu-theme.footer.licenseTitle"
+msgstr "Giấy phép hoạt động tạp chí in và tạp chí điện tử số:"
+
+msgid "plugins.themes.sgu-theme.footer.issuedByTitle"
+msgstr "Do bộ Thông Tin và Truyền Thông cấp ngày:"
+
+msgid "plugins.themes.sgu-theme.about.journal.alt"
+msgstr "Tạp chí Khoa học Đại học Sài Gòn"
+
+msgid "plugins.themes.sgu-theme.about.journal.title"
+msgstr "TẠP CHÍ KHOA HỌC ĐẠI HỌC SÀI GÒN"
+
+msgid "plugins.themes.sgu-theme.about.journal.subtitle"
+msgstr "Scientific Journal of Saigon University"
+
+msgid "plugins.themes.sgu-theme.about.journal.issn"
+msgstr "ISSN 1859 - 3208"
+
+msgid "plugins.themes.sgu-theme.about.journal.license"
+msgstr "Số: 1945/QĐ-ĐHSG-TTTT&PTGD"
+
+msgid "plugins.themes.sgu-theme.about.journal.admin"
+msgstr "<strong>UBND TP.HCM</strong> - <strong>Trường Đại học Sài Gòn</strong><br><strong>Cộng hòa Xã hội Chủ nghĩa Việt Nam</strong> - Độc lập, Tự do, Hạnh phúc"
+
+msgid "plugins.themes.sgu-theme.about.section.1.title"
+msgstr "1. Giới thiệu chung"
+
+msgid "plugins.themes.sgu-theme.about.section.1.paragraph.1"
+msgstr "Tạp chí Khoa học Đại học Sài Gòn nằm trong hệ thống báo chí chính thống của nước Cộng hòa Xã hội Chủ nghĩa Việt Nam, có tiếng nói khoa học ngang tầm với các Tạp chí khoa học ngành giáo dục và Tạp chí các lĩnh vực khác."
+
+msgid "plugins.themes.sgu-theme.about.section.1.paragraph.2"
+msgstr "Tạp chí Khoa học Đại học Sài Gòn có chỉ số Quốc tế ISSN 1859 – 3208, khẳng định Tạp chí đạt tiêu chuẩn Quốc tế về lĩnh vực khoa học. Giáo sư, Phó Giáo sư, Tiến sĩ, Nghiên cứu sinh, Thạc sĩ, Học viên cao học, giảng viên, sinh viên có công trình nghiên cứu khoa học theo đúng nội dung định hướng của Tạp chí, được đăng trên Tạp chí sẽ được tính điểm nghiên cứu khoa học theo quy định."
+
+msgid "plugins.themes.sgu-theme.about.section.2.title"
+msgstr "2. Tên gọi Tạp chí"
+
+msgid "plugins.themes.sgu-theme.about.section.2.vietnamese"
+msgstr "Tên tiếng Việt: Tạp chí Khoa học Đại học Sài Gòn."
+
+msgid "plugins.themes.sgu-theme.about.section.2.english"
+msgstr "Tên tiếng Anh: Scientific Journal of Saigon University."
+
+msgid "plugins.themes.sgu-theme.about.section.2.abbreviation"
+msgstr "Tên viết tắt: SJSGU."
+
+msgid "plugins.themes.sgu-theme.about.section.2.address"
+msgstr "Trụ sở: 273 An Dương Vương, Phường 3, Quận 5, Thành phố Hồ Chí Minh."
+
+msgid "plugins.themes.sgu-theme.about.section.2.contact"
+msgstr "ĐT: 08.38321360; Email: <a href=\"mailto:tcdhsg@sgu.edu.vn\">tcdhsg@sgu.edu.vn</a>"
+
+msgid "plugins.themes.sgu-theme.about.section.2.seal"
+msgstr "Tạp chí Khoa học Đại học Sài Gòn có con dấu riêng."
+
+msgid "plugins.themes.sgu-theme.about.section.3.title"
+msgstr "3. Tôn chỉ, mục đích"
+
+msgid "plugins.themes.sgu-theme.about.section.3.paragraph.1"
+msgstr "Tạp chí Khoa học Đại học Sài Gòn là diễn đàn khoa học công bố các kết quả nghiên cứu và hoạt động khoa học của cán bộ, giảng viên, sinh viên Trường Đại học Sài Gòn, gắn nghiên cứu khoa học của nhà trường với thực tiễn sản xuất, đổi mới và phát triển của đất nước."
+
+msgid "plugins.themes.sgu-theme.about.section.3.paragraph.2"
+msgstr "Tạp chí Khoa học Đại học Sài Gòn sẽ là diễn đàn trao đổi tư duy, quan điểm, định hướng nghiên cứu khoa học đa ngành giữa các nhà khoa học, các nhà quản lý, các học giả, các nhà giáo ở các trường cao đẳng, đại học, các viện, các học viện, các trung tâm nghiên cứu trong và ngoài nước; góp phần từng bước hoàn thiện và nâng cao chức năng, nhiệm vụ đào tạo và nghiên cứu khoa học của Trường Đại học Sài Gòn."
+
+msgid "plugins.themes.sgu-theme.about.section.3.paragraph.3"
+msgstr "Tạp chí Khoa học Đại học Sài Gòn là cầu nối quan trọng giữa Trường Đại học Sài Gòn với các cơ sở giáo dục trong hệ thống giáo dục quốc dân, với các công ty, doanh nghiệp, các đơn vị, cơ sở sản xuất trong mối liên hệ giữa đào tạo và sử dụng, giữa nghiên cứu với thực tiễn đời sống kinh tế – xã hội của thành phố, khu vực và cả nước."
+
+msgid "plugins.themes.sgu-theme.about.section.4.title"
+msgstr "4. Nội dung thể hiện"
+
+msgid "plugins.themes.sgu-theme.about.section.4.topics.title"
+msgstr "Kết cấu các chuyên đề:"
+
+msgid "plugins.themes.sgu-theme.about.section.4.topics.natural"
+msgstr "Khoa học Tự nhiên & Công nghệ"
+
+msgid "plugins.themes.sgu-theme.about.section.4.topics.social"
+msgstr "Khoa học Xã hội & Nhân văn"
+
+msgid "plugins.themes.sgu-theme.about.section.4.topics.education"
+msgstr "Khoa học Giáo dục"
+
+msgid "plugins.themes.sgu-theme.about.section.4.topics.others"
+msgstr "Các chuyên đề khác"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.title"
+msgstr "Kết cấu hình thức nội dung từng số:"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.cover1"
+msgstr "Bìa 1: Theo mẫu (đính kèm)"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.cover2"
+msgstr "Bìa 2: Hội đồng Biên tập và Giới thiệu Tòa soạn (theo mẫu đính kèm)"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.cover3"
+msgstr "Bìa 3: Thể lệ gửi bài"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.cover4"
+msgstr "Bìa 4: Theo mẫu (đính kèm)"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.contents"
+msgstr "Trang 1 và 2: Mục lục tiếng Anh + tiếng Việt"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.articles"
+msgstr "Các bài viết"
+
+msgid "plugins.themes.sgu-theme.about.section.4.structure.news"
+msgstr "Trang cuối: Tin tức"
+
+msgid "plugins.themes.sgu-theme.about.section.4.article.title"
+msgstr "Kết cấu nội dung từng bài:"
+
+msgid "plugins.themes.sgu-theme.about.section.4.article.requirement"
+msgstr "Bài báo khoa học phải có tính tổng hợp, nghiên cứu, có đóng góp mới và có tầm ảnh hưởng khoa học, viết đúng theo thể lệ của Tạp chí."
+
+msgid "plugins.themes.sgu-theme.about.section.4.article.abstract"
+msgstr "Tóm tắt và từ khóa bằng tiếng Việt và tiếng Anh."
+
+msgid "plugins.themes.sgu-theme.about.section.4.article.structure"
+msgstr "Các phần bố cục chặt chẽ, logic."
+
+msgid "plugins.themes.sgu-theme.about.section.4.article.references"
+msgstr "Tài liệu tham khảo phải được trình bày đúng qui chuẩn đã được đề cập trong thể lệ gửi bài đăng trên Tạp chí."
+
+msgid "plugins.themes.sgu-theme.about.section.5.title"
+msgstr "5. Hình thức thể hiện"
+
+msgid "plugins.themes.sgu-theme.about.section.5.publishing"
+msgstr "Kì hạn xuất bản: Mỗi tháng 1 số (chưa bao gồm các số chuyên đề)"
+
+msgid "plugins.themes.sgu-theme.about.section.5.format"
+msgstr "Khuôn khổ: 19 x 27 cm"
+
+msgid "plugins.themes.sgu-theme.about.section.5.pages"
+msgstr "Số trang in mỗi số: 120 – 130 trang"
+
+msgid "plugins.themes.sgu-theme.about.section.5.copies"
+msgstr "Số lượng xuất bản mỗi kì: 1.000 cuốn"
+
+msgid "plugins.themes.sgu-theme.about.section.5.printing"
+msgstr "Địa điểm in: Các nhà in trong toàn quốc"
+
+msgid "plugins.themes.sgu-theme.about.section.5.distribution"
+msgstr "Phạm vi phát hành: Trong nước và quốc tế"
+
+msgid "plugins.themes.sgu-theme.about.section.5.method"
+msgstr "Phương thức phát hành: Biếu tặng và tự phát hành"
+
+msgid "plugins.themes.sgu-theme.about.section.5.price"
+msgstr "Giá bán lẻ: Theo thời điểm"
+
+msgid "plugins.themes.sgu-theme.about.section.6.title"
+msgstr "6. Đối tượng phục vụ"
+
+msgid "plugins.themes.sgu-theme.about.section.6.readers.1"
+msgstr "Các nhà khoa học, các độc giả trong và ngoài nước."
+
+msgid "plugins.themes.sgu-theme.about.section.6.readers.2"
+msgstr "Cán bộ, giảng viên, học viên và sinh viên Trường Đại học Sài Gòn."
+
+msgid "plugins.themes.sgu-theme.about.section.6.readers.3"
+msgstr "Các trường cao đẳng, đại học, các viện, các học viện, các trung tâm nghiên cứu trong cả nước."
+
+msgid "plugins.themes.sgu-theme.about.section.6.readers.4"
+msgstr "Các cơ sở giáo dục trong cả nước (Sở Giáo dục & Đào tạo, Phòng Giáo dục, trường phổ thông và trung tâm Giáo dục thường xuyên)."
+
+msgid "plugins.themes.sgu-theme.about.section.6.readers.5"
+msgstr "Các công ty, doanh nghiệp, đơn vị, cơ sở sản xuất có nhu cầu."
+
+msgid "stats.name.submissionsSkipped"
+msgstr "Số lượng bài nộp đã bị bỏ qua trong hệ thống."
+
+msgid "stats.name.submissionsInProgress"
+msgstr "Số lượng bài nộp hiện đang được xử lý trong hệ thống."
+
+msgid "stats.name.submissionsImported"
+msgstr "Số lượng bài nộp đã được nhập vào hệ thống."
+
+msgid "about.onlineSubmissions.submissionActions.description"
+msgstr "Mô tả các hành động có sẵn cho tác giả trong quá trình nộp bài, bao gồm tải tệp lên, cung cấp siêu dữ liệu và quản lý bài gửi của họ."
+
+msgid "publication.assignedToIssue"
+msgstr "Chuỗi đã được gán vào số báo"
+
+msgid "publication.changeIssue"
+msgstr "Thay đổi số báo"
+
+msgid "search.searchDescription"
+msgstr "Tìm kiếm bài viết theo tiêu đề, tác giả hoặc từ khóa"
+
+msgid "search.searchPlaceholder"
+msgstr "Nhập từ khóa tìm kiếm..."
+
+msgid "search.authorPlaceholder"
+msgstr "Nhập tên tác giả"
+
+msgid "search.dateRange"
+msgstr "Khoảng thời gian"
+
+msgid "search.clearFilters"
+msgstr "Xóa bộ lọc"
+
+msgid "search.noResultsAdvice"
+msgstr "Không tìm thấy kết quả phù hợp. Hãy thử từ khóa khác."
+
+msgid "search.suggestions"
+msgstr "Gợi ý tìm kiếm"
+
+msgid "search.suggestion1"
+msgstr "Kiểm tra chính tả từ khóa của bạn"
+
+msgid "search.suggestion2"
+msgstr "Thử sử dụng từ khóa khác hoặc chung hơn"
+
+msgid "search.suggestion3"
+msgstr "Sử dụng ít từ khóa hơn"
+
+msgid "search.tips"
+msgstr "Mẹo tìm kiếm"
+
+msgid "search.tip1.title"
+msgstr "Sử dụng dấu ngoặc kép"
+
+msgid "search.tip1.description"
+msgstr "Đặt cụm từ trong dấu \"\" để tìm chính xác cụm từ đó"
+
+msgid "search.tip2.title"
+msgstr "Lọc theo ngày"
+
+msgid "search.tip2.description"
+msgstr "Sử dụng bộ lọc khoảng thời gian để thu hẹp kết quả tìm kiếm"
+
+msgid "search.tip3.title"
+msgstr "Tìm theo tác giả"
+
+msgid "search.tip3.description"
+msgstr "Nhập tên tác giả để xem các bài viết của họ"
+
+msgid "search.searchResults.foundSingle"
+msgstr "Đã tìm thấy 1 kết quả"
+
+msgid "search.applyFilters"
+msgstr "Áp dụng bộ lọc"
+
+msgid "search.applyFilters"
+msgstr "Apply filters"
