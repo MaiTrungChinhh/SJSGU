@@ -30,7 +30,6 @@
 			{if !empty($forLibrarians)}
 				<li>
 					<a href="{url router=$smarty.const.ROUTE_PAGE page="information" op="librarians"}">
-						{translate key="navigation.infoForLibrarians"}
 					</a>
 				</li>
 			{/if}

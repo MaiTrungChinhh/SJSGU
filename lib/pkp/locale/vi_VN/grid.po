@@ -672,7 +672,7 @@ msgid "grid.submission.active.selectOrphaned"
 msgstr "Bao gồm các bài gửi không hoàn chỉnh không phải do tác giả gửi."
 
 msgid "grid.action.addNavigationMenu"
-msgstr "Thêm thực đơn"
+msgstr "Thêm mục điều hướng"
 
 msgid "grid.action.addNavigationMenuItem"
 msgstr "Thêm mục"

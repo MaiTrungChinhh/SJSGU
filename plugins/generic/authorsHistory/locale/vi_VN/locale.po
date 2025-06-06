@@ -1,0 +1,30 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-07-29T11:05:18+00:00\n"
+"PO-Revision-Date: 2020-07-29T11:05:18+00:00\n"
+"Language: vi_VN\n"
+
+msgid "plugins.generic.authorsHistory.displayName"
+msgstr "Lịch sử Tác giả"
+
+msgid "plugins.generic.authorsHistory.description"
+msgstr "Plugin này thêm một tab vào trang chi tiết bài nộp, hiển thị tất cả các bài nộp từ các tác giả."
+
+msgid "plugins.generic.authorsHistory.pages"
+msgstr "Trang"
+
+msgid "plugins.generic.authorsHistory.noORCID"
+msgstr "Không có ORCID"
+
+msgid "plugins.generic.authorsHistory.noPublications"
+msgstr "Không tìm thấy bài nộp nào với ORCID hoặc email này"
+
+msgid "plugins.generic.authorsHistory.orcid"
+msgstr "ORCID"
