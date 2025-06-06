@@ -56,7 +56,7 @@ msgid "navigation.journalHelp"
 msgstr "Trợ giúp Tạp chí"
 
 msgid "navigation.current"
-msgstr "CÁC SỐ ĐÃ XUẤT BẢN"
+msgstr "SỐ HIỆN TẠI"
 
 msgid "navigation.otherJournals"
 msgstr "Các tạp chí khác"
