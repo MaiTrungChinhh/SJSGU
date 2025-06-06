@@ -71,33 +71,6 @@
 
                     <div class="search-advanced" id="advancedFilters">
                         <div class="search-filters-grid">
-                            {* Date range filter *}
-                            <div class="filter-group date-filter">
-                                <h3 class="filter-title">
-                                    <i class="fas fa-calendar-alt"></i>
-                                    {translate key="search.dateRange"}
-                                </h3>
-                                <div class="date-range-inputs">
-                                    <div class="date-input-group">
-                                        <label for="dateFromYear">{translate key="search.dateFrom"}</label>
-                                        <div class="date-selects">
-                                            {capture assign="dateFromLegend"}{translate key="search.dateFrom"}{/capture}
-                                            {html_select_date_a11y legend=$dateFromLegend prefix="dateFrom" time=$dateFrom start_year=$yearStart end_year=$yearEnd}
-                                        </div>
-                                    </div>
-                                    <div class="date-separator">
-                                        <i class="fas fa-arrow-right"></i>
-                                    </div>
-                                    <div class="date-input-group">
-                                        <label for="dateToYear">{translate key="search.dateTo"}</label>
-                                        <div class="date-selects">
-                                            {capture assign="dateFromTo"}{translate key="search.dateTo"}{/capture}
-                                            {html_select_date_a11y legend=$dateFromTo prefix="dateTo" time=$dateTo start_year=$yearStart end_year=$yearEnd}
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
                             {* Author filter *}
                             <div class="filter-group author-filter">
                                 <h3 class="filter-title">
@@ -109,6 +82,33 @@
                                         class="author-input"
                                         placeholder="{translate|escape key="search.authorPlaceholder"}">
                                 {/block}
+                            </div>
+
+                            {* Date range filter *}
+                            <div class="filter-group date-filter">
+                                <h3 class="filter-title">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    {translate key="search.dateRange"}
+                                </h3>
+                                <div class="date-range-inputs">
+                                    <div class="date-input-group">
+                                        {* <label for="dateFromYear">{translate key="search.dateFrom"}</label> *}
+                                        <div class="date-selects">
+                                            {capture assign="dateFromLegend"}{translate key="search.dateFrom"}{/capture}
+                                            {html_select_date_a11y legend=$dateFromLegend prefix="dateFrom" time=$dateFrom start_year=$yearStart end_year=$yearEnd}
+                                        </div>
+                                    </div>
+                                    <div class="date-separator">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                    <div class="date-input-group">
+                                        {* <label for="dateToYear">{translate key="search.dateTo"}</label> *}
+                                        <div class="date-selects">
+                                            {capture assign="dateFromTo"}{translate key="search.dateTo"}{/capture}
+                                            {html_select_date_a11y legend=$dateFromTo prefix="dateTo" time=$dateTo start_year=$yearStart end_year=$yearEnd}
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
