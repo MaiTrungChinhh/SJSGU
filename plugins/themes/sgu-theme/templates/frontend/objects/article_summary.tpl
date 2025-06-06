@@ -33,6 +33,7 @@
 					{else}href="
 
 
+
 						{url page="article" op="view" path=$articlePath}" 
 					{/if} class="file">
 					{assign var="coverImage" value=$publication->getLocalizedData('coverImage')}
@@ -47,6 +48,7 @@
 				<a id="article-{$article->getId()}"
 					{if $journal}href="{url journal=$journal->getPath() page="article" op="view" path=$articlePath}"
 					{else}href="
+
 
 
 						{url page="article" op="view" path=$articlePath}" 
@@ -92,7 +94,7 @@
 
 			{if !$hideGalleys}
 				<div class="galleys-section">
-					<span class="galleys-label">Tải xuống:</span>
+					<span class="galleys-label"> {translate key="common.download"}</span>
 					<ul class="galleys_links">
 						{foreach from=$article->getGalleys() item=galley}
 							{if $primaryGenreIds}
