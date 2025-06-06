@@ -450,3 +450,9 @@ msgstr "Enter the author's name to view their articles"
 
 msgid "search.searchResults.foundSingle"
 msgstr "1 result found"
+
+msgid "search.applyFilters"
+msgstr "Apply filters"
+
+msgid "manager.sections.confirmDeactivateSection"
+msgstr "Are you sure you want to deactivate this section?"
