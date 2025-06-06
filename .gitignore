@@ -1,2 +1,6 @@
-/cache
-/public
+
+public/
+cache/
+
+# Cấu hình
+config.inc.php
