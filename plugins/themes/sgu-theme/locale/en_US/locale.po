@@ -459,3 +459,6 @@ msgstr "Are you sure you want to deactivate this section?"
 
 msgid "manager.people.signedInAs"
 msgstr "Signed in as"
+
+msgid "manager.statistics.reports.customReportGenerator"
+msgstr "Custom Report Generator"

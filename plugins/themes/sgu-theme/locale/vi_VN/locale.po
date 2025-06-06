@@ -459,3 +459,7 @@ msgstr "Bạn có chắc chắn muốn hủy kích hoạt chuyên mục này kh�
 
 msgid "manager.people.signedInAs"
 msgstr "Đăng nhập với tư cách"
+
+msgid "manager.statistics.reports.customReportGenerator"
+msgstr "Báo cáo tùy chỉnh"
+
