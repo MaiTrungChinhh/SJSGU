@@ -454,5 +454,5 @@ msgstr "Đã tìm thấy 1 kết quả"
 msgid "search.applyFilters"
 msgstr "Áp dụng bộ lọc"
 
-msgid "search.applyFilters"
-msgstr "Apply filters"
+msgid "manager.sections.confirmDeactivateSection"
+msgstr "Bạn có chắc chắn muốn hủy kích hoạt chuyên mục này không?"
