@@ -464,7 +464,7 @@ msgid "common.height"
 msgstr "Chiều cao"
 
 msgid "common.homepageNavigationLabel"
-msgstr "Trang chủ"
+msgstr "TRANG CHỦ"
 
 msgid "common.homePageHeaderLogo.altText"
 msgstr "Tiêu đề trang chủ"
