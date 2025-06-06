@@ -1319,7 +1319,7 @@ msgid "navigation.admin"
 msgstr "Quản trị"
 
 msgid "navigation.archives"
-msgstr "CÁC SỐ ĐÃ XUẤT BẢN"
+msgstr "Đã xuất bản"
 
 msgid "navigation.breadcrumbLabel"
 msgstr "Bạn đang ở đây:"
