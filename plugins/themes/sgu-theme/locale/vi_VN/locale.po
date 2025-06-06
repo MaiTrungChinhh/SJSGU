@@ -456,3 +456,6 @@ msgstr "Áp dụng bộ lọc"
 
 msgid "manager.sections.confirmDeactivateSection"
 msgstr "Bạn có chắc chắn muốn hủy kích hoạt chuyên mục này không?"
+
+msgid "manager.people.signedInAs"
+msgstr "Đăng nhập với tư cách"

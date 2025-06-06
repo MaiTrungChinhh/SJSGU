@@ -456,3 +456,6 @@ msgstr "Apply filters"
 
 msgid "manager.sections.confirmDeactivateSection"
 msgstr "Are you sure you want to deactivate this section?"
+
+msgid "manager.people.signedInAs"
+msgstr "Signed in as"
